@@ -2,7 +2,7 @@
 path: "/pages/join-today"
 crumb: "Get Coaching"
 title: "Join Under Par: Online Golf Coaching Plans | Under Par Performance Golf"
-description: "Join the Under Par team. Choose monthly ($39/month) or annual coaching: unlimited coaching, a personalized practice and fitness plan, and the Go Low Guarantee."
+description: "Join the Under Par team. Choose monthly ($39/month) or annual ($374/year) coaching: unlimited coaching, a personalized practice and fitness plan, and the Go Low Guarantee."
 raw: true
 no_cta: true
 schema:
@@ -10,7 +10,7 @@ schema:
     mainEntity:
       - "@type": Question
         name: How much does Under Par coaching cost?
-        acceptedAnswer: {"@type": Answer, text: "$39 per month on the monthly plan, or one payment a year on the annual plan. Both include unlimited coaching, your practice plan, your golf workout plan and the Go Low Guarantee."}
+        acceptedAnswer: {"@type": Answer, text: "$39 per month on the monthly plan, or $374 per year on the annual plan. Both include unlimited coaching, your practice plan, your golf workout plan and the Go Low Guarantee."}
       - "@type": Question
         name: What is the Go Low Guarantee?
         acceptedAnswer: {"@type": Answer, text: "Work with your coach for six months. If you haven't cut at least two strokes off your handicap, your next six months are free."}
@@ -41,11 +41,12 @@ schema:
 <a class="btn" href="{{MONTHLY_URL}}">Choose Monthly</a>
 </div>
 <div class="plan">
-<h3 style="margin:0">Annual</h3>
-<div class="price" style="font-size:44px;margin-top:22px">One payment<small> / year</small></div>
+<div style="display:flex;justify-content:space-between;align-items:center"><h3 style="margin:0">Annual</h3><span class="badge" style="background:var(--lime);color:#0C110E">SAVE $94</span></div>
+<div class="price">$374<small> / year</small></div>
+<p style="margin:0;color:var(--muted)">About $31 a month, billed once a year</p>
 <ul class="checklist" style="margin-bottom:28px">
 <li>Everything in Monthly</li>
-<li>Billed once a year</li>
+<li>Save $94 vs. paying monthly</li>
 <li>A full season with your coach</li>
 <li>Go Low Guarantee</li>
 </ul>
