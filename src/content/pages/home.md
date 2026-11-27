@@ -17,14 +17,15 @@ featured:
 <div>
 <span class="pill-tag">Practice + Fitness Plans · From ${{PRICE}}/Month</span>
 <h1>Golf Coaching,<br><em>Modernized.</em></h1>
-<p class="lede">Structured practice plans and a golf-specific fitness plan in the Under Par app, with video drills and results tracking. From ${{PRICE}} a month. Want a personal coach too? That's Full Access, and it has a waitlist.</p>
+<p class="lede">Structured practice plans and a golf-specific fitness plan in the Under Par app, with video drills and results tracking. All for ${{PRICE}} a month.</p>
 <div class="hero-actions">
 <a class="btn" href="{{JOIN}}">Get Started</a>
 <a class="btn btn-ghost" href="/pages/sample-practice-plan">See a Sample Plan</a>
 </div>
 <div class="stats">
-<div><div class="n">${{PRICE}}</div><div class="l">a month for<br>practice + fitness plans</div></div>
-<div><div class="n">${{FULL_PRICE}}</div><div class="l">Full Access coaching<br>(waitlist)</div></div>
+<div><div class="n">${{PRICE}}</div><div class="l">a month, everything<br>in the app</div></div>
+<div><div class="n">1–7</div><div class="l">practice days a week,<br>built around your schedule</div></div>
+<div><div class="n">4–6</div><div class="l">golf workouts a week<br>with demo videos</div></div>
 </div>
 </div>
 <div class="phone"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000" srcset="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000 1x, https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000 2x" alt="The Under Par app showing a player's practice plan from their coach"></div>
