@@ -7,6 +7,7 @@ category: the-blog
 date: 2022-04-12
 updated: 2026-11-27
 related: [mindset]
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-04-12_at_3.19.14_PM.png?width=1200"
 ---
 Ben Hogan is on almost every list of the best ball strikers who ever lived. Jack Nicklaus reportedly ranked him above Tiger Woods in that department. Yet Hogan's swing wasn't the one other pros copied. Plenty of them thought Sam Snead had the prettier move.
 

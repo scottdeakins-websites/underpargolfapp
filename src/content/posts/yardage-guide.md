@@ -10,6 +10,7 @@ related: [the-blog]
 faq:
   "How do I find out how far I hit each club?": "Hit 5–7 full shots with each club on a launch monitor or simulator, throw out the mishits, and average the rest. That average is your stock yardage; your longest good shot is your max."
   "Should I use carry or total distance?": "Carry, for anything that has to clear trouble. Record total as well for clubs that roll out, written as carry/total, for example 150/155."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Yardage_Guide_Post.png?width=1200"
 ---
 Ask most golfers how far they hit their 7-iron and you'll get their best one ever. That's why so many approach shots come up short. A **yardage guide** is a written record of what each club *actually* does. It takes the guessing out of club selection, and it's one of the simplest ways to save strokes without changing your swing.
 

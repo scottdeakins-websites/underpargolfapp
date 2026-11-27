@@ -1,23 +1,35 @@
 ---
-path: /pages/coaches
+path: "/pages/coaches"
 crumb: "Coaches"
 title: "Meet the Coaches | Under Par Performance Golf"
-description: "Meet the Under Par coaching team, Scott Deakins, John Guillaume and Michael Leonard, and how they coach practice, performance and the mental game."
+description: "Meet the Under Par coaches, Scott Deakins, John Guillaume and Michael Leonard, who work one-on-one with Full Access players."
+raw: true
 ---
-<p class="kicker">Coaches</p>
-
-# The people reading your practice logs
-
-Our coaches work with Full Access members. Full Access (${{FULL_PRICE}}/month) is currently full; [join the waitlist](/pages/wait-list).
-
-## Scott Deakins: Founder and coach
-
-Scott started Under Par to bring together two things he cares about, software and golf. His coaching is goal-first and covers the whole game: swing mechanics, pre-shot routine and, above all, how you plan your practice.
-
-## John Guillaume: Golf performance coach
-
-John started playing at 9 and won the Washington State Junior Championship at 11. After a career in technology, he came back to the game and now competes on the senior circuit. He coaches natural, athletic movement and keeps training simple.
-
-## Michael Leonard: Mental coach
-
-Michael is a +1 handicap amateur, a full-time writer and the author of *Wicked Smart Golf*. He left a corporate sales career in 2017, has played more than 160 tournament days and went to Q-school in 2019. Hear him and Scott talk practice strategy on [Wicked Smart Golf, episode 28](https://www.wickedsmartgolf.com/blog/episode-28).
+<section class="hero" style="padding-bottom:24px">
+<div class="wrap">
+<span class="pill-tag">Coaches</span>
+<h1>The people behind <em>your plan</em></h1>
+<p class="lede">Our coaches write the practice and fitness programming in the Under Par app, and work one-on-one with Full Access players: unlimited reviews of your swings, rounds and practice. Full Access is currently full; <a href="{{WAITLIST}}">join the waitlist</a>.</p>
+</div>
+</section>
+<section style="padding-bottom:64px">
+<div class="wrap">
+<div class="coach">
+<img src="{{CDN}}Screen_Shot_2022-05-07_at_11.07.53_AM.png?width=500" alt="Coach Scott Deakins">
+<div><p class="kicker">Founder and CEO / Coach</p><h2>Scott Deakins</h2>
+<p style="color:var(--text-2)">Coach Scott started Under Par to combine his passions for software and golf. He takes a holistic approach, starting with a player's goals and working backward, and helps golfers with every part of their game, from swing mechanics to pre-shot routine to practice regimen.</p>
+<a href="/pages/our-mission">Scott's Mission With Under Par →</a></div>
+</div>
+<div class="coach">
+<img src="{{CDN}}John_Guilluame_-_Under_Par_Golf_Coach.png?width=500" alt="Coach John Guillaume">
+<div><p class="kicker">Golf Performance Coach</p><h2>John Guillaume</h2>
+<p style="color:var(--text-2)">John started golf at 9 and won the Washington State Junior Championship at 11, plus dozens of regional titles as a junior. He stepped away for a career in technology before coming back to the game. A self-proclaimed golf nerd who competes on the senior circuit, John emphasizes natural athletic movement and keeps training as simple as possible.</p></div>
+</div>
+<div class="coach">
+<img src="{{CDN}}Screen_Shot_2022-12-02_at_10.17.43_AM.png?width=500" alt="Mental coach Michael Leonard">
+<div><p class="kicker">Mental Coach</p><h2>Michael Leonard</h2>
+<p style="color:var(--text-2)">Michael is a full-time writer, author, creator of <em>Wicked Smart Golf</em> and a +1 handicap amateur. He left a national corporate sales career in 2017 to pursue entrepreneurship and professional golf, and has since played 160+ tournament days, including Q-school in 2019.</p>
+<a href="/blogs/golf-content/wicked-smart-golf-play-better-without-swing-changes-5-strategies">More About Michael's Book →</a></div>
+</div>
+</div>
+</section>

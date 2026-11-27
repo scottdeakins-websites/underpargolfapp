@@ -7,6 +7,7 @@ category: the-blog
 date: 2023-02-07
 updated: 2026-11-27
 related: [short-game-improvement-guide]
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Sample_Practice_Session_-_LANDING_ZONE_-_Chipping_and_Pitching.png?width=1200"
 ---
 Great chippers don't aim at the hole. They aim at a **landing spot** and let the ball roll the rest of the way. This session trains exactly that, from the fairway and the rough. Even if you don't normally think about landing spots, it'll sharpen your trajectory and distance control.
 

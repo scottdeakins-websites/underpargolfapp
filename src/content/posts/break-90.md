@@ -10,6 +10,7 @@ related: [full-swing-guide-from-scratch-golf, short-game-improvement-guide]
 faq:
   "What do I need to do to break 90?": "Avoid double bogeys more than you chase birdies. Keep the tee shot in play, have one approach shot you trust, and get down in three from just off the green."
   "How long does it take to break 90?": "It depends on where you start, but a scored practice plan for four weeks will show you exactly which part of your game is holding you back."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Break_90_Plan.png?width=1200"
 ---
 Breaking 90 isn't about making birdies. Shoot bogey on every hole and you'll card a 90. Make a few pars and you're under. The rounds that stay above 90 are the ones with **triples, lost balls and four-putts**.
 

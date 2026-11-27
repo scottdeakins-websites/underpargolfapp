@@ -8,6 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/51SlMP2TohL.jpg?width=1200"
 ---
 Dr. Bob Rotella has worked with more major champions than almost any mental coach in golf, and his core idea is simple: **build your swing on the practice tee, then trust it on the course.** Those are two separate skills. Most amateurs practice the first and never practice the second.
 

@@ -8,6 +8,7 @@ date: '2022-10-10'
 updated: '2026-11-27'
 related:
 - short-game-improvement-guide
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Master_Scorer.png?width=1200"
 ---
 Great scorers aren't always great ball strikers. They're great planners. Five keys:
 

@@ -8,6 +8,7 @@ date: '2022-04-26'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Line_on_the_Golf_Ball.png?width=1200"
 ---
 There's no universal answer to whether a line on your ball helps. Many good players use one on short, fairly straight putts, roughly inside 10 feet, and ignore it on longer ones. The only way to know whether it helps *you* is to test it.
 

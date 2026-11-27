@@ -11,6 +11,7 @@ faq:
   "Where should the ball be for irons?": "Long irons (2–4) go about two inches inside your lead heel. Mid irons (5–7) go about an inch ahead of the center of your stance. Short irons and wedges go in the center."
   "Where should the ball be for driver?": "Opposite the inside of your lead heel. That forward position helps you hit up on the ball for higher launch and less spin."
   "Should ball position change for left-handed golfers?": "Use the same positions, mirrored. Your lead heel is your right heel."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/AdobeStock_138247047.jpg?width=1200"
 ---
 Ball position is the cheapest fix in golf. It takes no extra swing speed and no new move, and it changes how solidly you hit it, how high it launches and where it starts. Tour players check it constantly, usually with an alignment stick on the ground. Most amateurs never check it at all.
 

@@ -8,6 +8,7 @@ date: '2022-09-21'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Jack_Nicklaus_Wins_Masters.png?width=1200"
 ---
 Jack Nicklaus called confidence the most important single factor in golf, and said there's only one way to get it and keep it: work. Talent helps. It doesn't replace the hours.
 

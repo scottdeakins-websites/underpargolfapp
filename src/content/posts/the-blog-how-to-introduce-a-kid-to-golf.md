@@ -6,6 +6,7 @@ description: 'Four ways to get a kid into golf and keep them interested: Topgolf
 category: the-blog
 date: '2022-03-23'
 updated: '2026-11-27'
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/AdobeStock_246669651.jpg?width=1200"
 ---
 Golf is one of the few sports a parent and child can play together for decades. The trick is making the first experiences fun, not technical. Here are four ways to start.
 

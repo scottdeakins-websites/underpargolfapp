@@ -8,6 +8,7 @@ date: '2023-02-07'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Daily_Practice_Session_from_Under_Par_-_Target_Challenge.png?width=1200"
 ---
 This session builds accuracy under pressure, and gives you a warm-up routine you can reuse before every round. You'll need a full bag and about 40 balls for the challenge.
 

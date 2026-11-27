@@ -6,6 +6,7 @@ description: 'A practice round isn''t for scoring. Five ways to use it to build 
 category: playing-strategies-for-golfers
 date: '2023-03-08'
 updated: '2026-11-27'
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-05-07_at_11.55.15_AM.png?width=1200"
 ---
 *By Michael Leonard*
 

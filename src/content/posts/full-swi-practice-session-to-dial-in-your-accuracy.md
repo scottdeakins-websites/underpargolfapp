@@ -8,6 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Practice_Basket_with_a_Few_Balls.png?width=1200"
 ---
 Accuracy under pressure comes from practice that has consequences. This session builds a six-stage challenge where you have to hit back-to-back good shots to move on.
 

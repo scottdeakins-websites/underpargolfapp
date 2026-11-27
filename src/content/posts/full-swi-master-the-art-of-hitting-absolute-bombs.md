@@ -8,6 +8,7 @@ date: '2022-09-06'
 updated: '2026-11-27'
 related:
 - fitness-for-golfers
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/MASTER_THE_ART_OF_HITTING_ABSOLUTE_BOMBS.png?width=1200"
 ---
 Distance has exploded on tour. In 2022, for the first time, most PGA Tour players averaged more than 300 yards off the tee. John Daly was the first to average over 300, back in 1997. Bombs are fun, they impress your playing partners, and when you control them they lower your scores. Here are five ways to add some.
 

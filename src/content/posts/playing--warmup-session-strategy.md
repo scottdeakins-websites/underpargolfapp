@@ -8,6 +8,7 @@ date: '2022-08-19'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Sergio_Garcia_s_pro_warm_up.png?width=1200"
 ---
 A good warm-up isn't practice. You're not fixing anything; you're finding your speed, rhythm and confidence for the day. This one takes about 40 minutes. Trim the full swing block if you're short on time.
 

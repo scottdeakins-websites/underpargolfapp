@@ -8,6 +8,7 @@ date: '2023-02-07'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/SAUCY_WEDGES_-_Sample_Golf_Practice_Session_-_Wedge_Game.png?width=1200"
 ---
 Most of the shots in your round are played from 100 yards and in. This session trains exactly that: distance control with every wedge, from 10 to 100 yards.
 

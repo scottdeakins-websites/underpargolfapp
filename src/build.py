@@ -38,10 +38,11 @@ NAV = [("Training", "/pages/resources"), ("Practice Plans", "/pages/sample-pract
        ("Players", "/pages/player-testimonials"), ("Coaches", "/pages/coaches"), ("Blog", "/pages/blog")]
 
 # Media still hosted on the Shopify store's CDN (move into the repo before closing Shopify)
-SHOP = "https://underpargolfapp.com/cdn/shop/files/"
-LOGO_IMG = (f'<img class="logo" src="{SHOP}Under_Par_Golf_-_Full_Logo_200x.png?v=1650392890" '
-            f'srcset="{SHOP}Under_Par_Golf_-_Full_Logo_200x.png?v=1650392890 1x, {SHOP}Under_Par_Golf_-_Full_Logo_400x.png?v=1650392890 2x" '
-            'alt="Under Par Performance Golf" width="180" height="60">')
+SHOP = "https://cdn.shopify.com/s/files/1/0611/8208/3286/files/"
+ART = "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/"
+LOGO_IMG = (f'<img class="logo" src="{SHOP}Under_Par_Golf_-_Full_Logo.png?width=200" '
+            f'srcset="{SHOP}Under_Par_Golf_-_Full_Logo.png?width=200 1x, {SHOP}Under_Par_Golf_-_Full_Logo.png?width=400 2x" '
+            'alt="Under Par Performance Golf" width="180" height="46">')
 
 # Every old Shopify blog URL (68). Ones not migrated yet redirect to their category hub.
 OLD_POSTS = """the-blog/top-5-indoor-training-tools-for-your-christmas-list
@@ -134,7 +135,7 @@ def load(folder):
     return items
 
 
-def head(title, desc, path, schema, og_type="website"):
+def head(title, desc, path, schema, og_type="website", image=None):
     url = SITE + (path if path == "/" else path)
     return f"""<!doctype html>
 <html lang="en">
@@ -149,7 +150,8 @@ def head(title, desc, path, schema, og_type="website"):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{esc(image or SHOP + 'Under_Par_Screen_Shot.webp?width=1200')}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UnderParCoach">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -194,6 +196,14 @@ def cta_band(heading="Ready to <em>Go Low?</em>", text=None):
 """
 
 
+SOCIAL = [("Facebook", "https://www.facebook.com/Under-Par-Performance-Golf-102095152341941",
+           '<path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v9h4v-9h3l1-4h-4V9c0-.6.4-1 1-1z"/>'),
+          ("X (Twitter)", "https://twitter.com/UnderParCoach",
+           '<path d="M17.8 3h3.3l-7.2 8.2L22.4 21h-6.6l-5.2-6.8L4.6 21H1.3l7.7-8.8L1 3h6.8l4.7 6.2L17.8 3zm-1.2 16h1.8L7.3 4.9H5.4L16.6 19z"/>'),
+          ("LinkedIn", "https://www.linkedin.com/company/78333110/",
+           '<path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/>')]
+
+
 def footer():
     cats = "".join(f'<a href="/blogs/{k}">{v[0]}</a>' for k, v in CATEGORIES.items())
     return f"""</main>
@@ -201,12 +211,13 @@ def footer():
 <div class="wrap foot-grid">
 <div class="foot-brand"><a class="brand" href="/">{LOGO_IMG}</a>
 <p>Golf practice and fitness plans in the Under Par app, plus Full Access coaching for players who want a coach in their corner.</p>
-<p>121 N. Wayne Avenue, Suite 201<br>Wayne, PA 19087<br><a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a></p></div>
+<p>121 N. Wayne Avenue, Suite 201<br>Wayne, PA 19087<br><a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a></p>
+<div class="social">{"".join(f'<a href="{u}" aria-label="{n}" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">{p}</svg></a>' for n, u, p in SOCIAL)}</div></div>
 <div><h3>Coaching</h3><a href="/pages/practice-plan">Practice Plan</a><a href="/pages/workout">Golf Workouts</a><a href="/pages/swing-coaching">Swing Coaching</a><a href="/pages/playing-strategies">Playing Strategy</a><a href="/pages/mindset-coaching">Mindset Coaching</a><a href="/pages/app-guide">The App</a></div>
 <div><h3>Learn</h3>{cats}<a href="/pages/download">Free Practice Sessions</a></div>
-<div><h3>Company</h3><a href="/pages/our-mission">Our Mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a><a href="https://twitter.com/UnderParCoach">X / Twitter</a><a href="https://www.facebook.com/Under-Par-Performance-Golf-102095152341941">Facebook</a></div>
+<div><h3>Company</h3><a href="/pages/our-mission">Our Mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a></div>
 </div>
-<div class="wrap foot-legal"><span>© {datetime.date.today().year} Scratch Golf, Inc. d/b/a Under Par</span><a href="https://underpargolfapp.com/policies/privacy-policy">Privacy</a><a href="https://underpargolfapp.com/policies/terms-of-service">Terms</a></div>
+<div class="wrap foot-legal"><span>© {datetime.date.today().year} Scratch Golf, Inc. d/b/a Under Par</span><a href="/policies/privacy-policy">Privacy Policy</a><a href="/policies/terms-of-service">Terms of Service</a></div>
 </footer>
 </body>
 </html>
@@ -243,8 +254,7 @@ def write(path, doc):
     target.write_text(doc)
 
 
-FULL_NOTE = (f'<div class="callout full-note"><p><strong>Personal coaching is part of Full Access (${FULL_PRICE}/month), '
-             f'which is currently full.</strong> The ${PRICE}/month app plan includes the online practice and fitness plans, '
+FULL_NOTE = (f'<div class="callout full-note"><p><strong>Personal coaching is part of Full Access, our full monthly coaching plan (${FULL_PRICE}/month) with unlimited reviews from your coach. It is currently full.</strong> The ${PRICE}/month app plan includes the online practice and fitness plans, '
              f'not access to a coach. <a href="{WAITLIST}">Join the Full Access waitlist</a>.</p></div>')
 
 
@@ -253,7 +263,7 @@ def render(text):
             .replace("{{SIGNUP_URL}}", SIGNUP_URL).replace("{{MONTHLY_URL}}", MONTHLY_URL)
             .replace("{{ANNUAL_URL}}", ANNUAL_URL).replace("{{ANNUAL_PRICE}}", str(ANNUAL_PRICE))
             .replace("{{FULL_PRICE}}", str(FULL_PRICE)).replace("{{WAITLIST}}", WAITLIST)
-            .replace("{{FULL_ACCESS}}", FULL_NOTE))
+            .replace("{{FULL_ACCESS}}", FULL_NOTE).replace("{{CDN}}", SHOP).replace("{{ART}}", ART))
 
 
 def build():
@@ -269,7 +279,8 @@ def build():
 
     def card(p):
         cat = CATEGORIES[p["category"]][0]
-        return (f'<a class="post-card" href="{p["path"]}"><span class="kicker">{cat}</span>'
+        thumb = f'<img class="thumb" src="{esc(p["image"])}" alt="" loading="lazy">' if p.get("image") else ""
+        return (f'<a class="post-card" href="{p["path"]}">{thumb}<span class="kicker">{cat}</span>'
                 f'<h3>{esc(p["title"])}</h3><p>{esc(p["description"])}</p>'
                 f'<span class="meta">{max(2, round(p["words"] / 230))} min read</span></a>')
 
@@ -311,7 +322,7 @@ def build():
     for p in posts:
         name = CATEGORIES[p["category"]][0]
         trail = [("Home", "/"), ("Blog", "/pages/blog"), (name, f"/blogs/{p['category']}"), (p["title"], p["path"])]
-        art = {"@type": "BlogPosting", "headline": p["title"], "description": p["description"],
+        art = {"@type": "BlogPosting", "headline": p["title"], **({"image": p["image"]} if p.get("image") else {}), "description": p["description"],
                "datePublished": str(p["date"]), "dateModified": str(p["updated"]),
                "author": {"@type": "Organization", "name": "Under Par Coaching Team", "url": SITE + "/pages/coaches"},
                "publisher": {"@id": SITE + "/#org"}, "mainEntityOfPage": SITE + p["path"]}
@@ -327,10 +338,11 @@ def build():
                 f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in p["faq"].items())
         updated = datetime.date.fromisoformat(str(p["updated"])).strftime("%B %-d, %Y")
         doc = head(p.get("seo_title", p["title"] + " | Under Par Golf"), p["description"], p["path"],
-                   {"@context": "https://schema.org", "@graph": graph}, "article") + header("/pages/blog")
+                   {"@context": "https://schema.org", "@graph": graph}, "article", p.get("image")) + header("/pages/blog")
         doc += f"""<article class="wrap post">
 <p class="crumbs"><a href="/pages/blog">Blog</a> / <a href="/blogs/{p['category']}">{name}</a></p>
 <h1>{esc(p['title'])}</h1>
+{f'<img class="post-hero" src="{esc(p["image"])}" alt="{esc(p.get("image_alt", p["title"]))}">' if p.get("image") else ""}
 <p class="post-meta">Under Par Coaching Team · Updated <time datetime="{p['updated']}">{updated}</time> · {max(2, round(p['words'] / 230))} min read</p>
 <div class="prose">{render(p['html'])}{faq_html}</div>
 <aside class="coach-note"><h2>Want sessions like this every week?</h2>

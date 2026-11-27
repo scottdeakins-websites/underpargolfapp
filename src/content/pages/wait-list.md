@@ -2,15 +2,15 @@
 path: "/pages/wait-list"
 crumb: "Full Access Waitlist"
 title: "Join the Full Access Coaching Waitlist | Under Par Performance Golf"
-description: "Full Access coaching ($199/month) pairs you with your own Under Par coach and includes the Go Low Guarantee. It's currently full; join the waitlist."
+description: "Join the waitlist for Under Par Full Access: our full monthly coaching plan ($199/month) with unlimited reviews from your own coach. Currently full."
 raw: true
 no_cta: true
 ---
 <section class="hero" style="padding-bottom:32px">
 <div class="wrap" style="text-align:center">
 <span class="pill-tag">Full Access · ${{FULL_PRICE}}/Month · Currently Full</span>
-<h1>Join the Under Par <em>waitlist</em></h1>
-<p class="lede" style="margin:20px auto 0">Full Access pairs you with your own Under Par coach: plans built and adjusted by your coach, swing, strategy and mindset feedback, and the Go Low Guarantee. A coach will be in touch once a spot opens up for you.</p>
+<h1>Waitlist for <em>Full Access coaching</em></h1>
+<p class="lede" style="margin:20px auto 0">This waitlist is for <strong>Full Access</strong>, our full monthly coaching plan at ${{FULL_PRICE}}/month: your own Under Par coach with <strong>unlimited reviews</strong> of your swings, rounds and practice, plans built and adjusted by your coach, and the Go Low Guarantee. Full Access is currently full. Sign up below and a coach will be in touch when a spot opens.</p>
 </div>
 </section>
 <section style="padding-bottom:72px">

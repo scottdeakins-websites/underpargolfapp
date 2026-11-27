@@ -57,12 +57,12 @@ schema:
 <div class="price">${{FULL_PRICE}}<small> / month</small></div>
 <ul class="checklist" style="margin-bottom:28px">
 <li>Everything in the App Plan</li>
-<li>Your own Under Par coach</li>
+<li>Your own Under Par coach, unlimited reviews</li>
 <li>Plans built and adjusted by your coach</li>
 <li>Swing, strategy and mindset feedback</li>
 <li>The Go Low Guarantee</li>
 </ul>
-<a class="btn btn-ghost" href="{{WAITLIST}}" style="display:block;text-align:center">Join the Waitlist</a>
+<a class="btn btn-ghost" href="{{WAITLIST}}" style="display:block;text-align:center">Join the Full Access Waitlist</a>
 </div>
 </div>
 

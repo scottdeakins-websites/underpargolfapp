@@ -8,6 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Bryson_Dechameau_Mashes_a_Golf_Ball.png?width=1200"
 ---
 Not long ago, tour players regularly left the driver in the bag for irons and fairway woods. Tiger's famous stinger was part of that era. Today, they hit driver much more often. Two reasons:
 

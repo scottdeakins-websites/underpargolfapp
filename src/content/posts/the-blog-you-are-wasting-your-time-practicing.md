@@ -6,6 +6,7 @@ description: 'Great on the range, bad on the course? Five ways to make golf prac
 category: the-blog
 date: '2022-10-04'
 updated: '2026-11-27'
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Range_v._Course.png?width=1200"
 ---
 You know the session. Swinging out of your shoes, trying to crush every driver, hitting 7-irons at nothing in particular until the divots line up perfectly. You leave feeling great. Then on Saturday it falls apart, because the course doesn't give you the same shot twice and there's no divot line to aim along.
 

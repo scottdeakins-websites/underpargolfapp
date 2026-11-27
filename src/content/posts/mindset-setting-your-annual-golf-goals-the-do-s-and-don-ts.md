@@ -10,6 +10,7 @@ related:
 - the-blog
 faq:
   What are good golf goals?: Mix measurable result goals, such as making 80% of putts from inside 3 feet or hitting 60% of fairways, with process goals you control, such as practicing short game two hours a week.
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Scratch_junior_golfer_chipping.jpg?width=1200"
 ---
 Hoping for a good season isn't a plan. The golfers who improve most set clear goals, build a plan to reach them and adjust as the year goes on. The change of season is a natural time to do it, but any time works.
 

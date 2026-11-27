@@ -8,6 +8,7 @@ date: '2023-03-08'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Learning_from_Tiger_Wood_s_Pre-Shot_Routine.png?width=1200"
 ---
 *By Michael Leonard*
 
@@ -18,6 +19,9 @@ Tiger's driving, iron play, short game and putting all set him apart. But his gr
 An NFL kicker takes the same number of steps, in the same time, before every kick. NBA players use the same dribbles, spins and foot placement at the free throw line. Routines block out distractions, calm nerves and focus attention on the task. In golf, Helen Alfredsson described the routine as building a cocoon around yourself. Tiger has said he sometimes got so focused he didn't remember hitting the shot.
 
 ## Tiger at his peak
+
+<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/dM5z_sCHNQw" title="Getting in the zone on the golf course" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 
 Around 2000–2001, Tiger's routine was automatic. His movements were nearly identical before every shot, and reportedly varied by only fractions of a second from swing to swing. It was also relatively quick. More on why quicker is better in [why you need to speed up your pre-shot routine](/blogs/mindset/why-you-need-to-speed-up-your-pre-shot-routine).
 

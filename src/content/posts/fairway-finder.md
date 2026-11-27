@@ -10,6 +10,7 @@ related: [playing-strategies-for-golfers]
 faq:
   "Is a fairway finder better than hitting 3-wood off the tee?": "For most mid-handicappers, yes. A 3-wood doesn't find many more fairways, and it leaves a longer approach. A choked-down driver keeps most of the distance with similar accuracy."
   "How far down should I choke up on driver?": "One to two inches. You'll still usually carry it 10–15 yards past your 3-wood."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Building_Your_Fairway_Finder_for_Your_Best_Golf.png?width=1200"
 ---
 Tight hole, out of bounds right, and you reach for the 3-wood. For most mid-handicappers that's the wrong call. The 3-wood doesn't hit many more fairways, and it leaves you 20 yards further back.
 

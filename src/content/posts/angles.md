@@ -9,6 +9,7 @@ updated: 2026-11-27
 related: [full-swing-guide-from-scratch-golf]
 faq:
   "Should I tee up on the right or left side if I slice?": "Tee up on the right side of the box (for a right-handed golfer) and aim down the left side, so your slice curves back into the fairway instead of away from it."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Playing_Strategy.png?width=1200"
 ---
 Most golfers tee up in the middle of the box without thinking about it. That's free strategy left on the table. The tee box is often 10 yards wide, and where you stand changes how much fairway or green you're actually aiming at.
 

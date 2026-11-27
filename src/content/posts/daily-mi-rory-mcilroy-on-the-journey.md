@@ -6,6 +6,7 @@ description: 'A daily mindset thought often attributed to Rory McIlroy: it''s no
 category: daily-mindset-2
 date: '2023-02-25'
 updated: '2026-11-27'
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Rory_McIlory_on_the_Journey.png?width=1200"
 ---
 > "It's not always about the results, it's about the journey."
 > — often attributed to Rory McIlroy

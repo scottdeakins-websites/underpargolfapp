@@ -1,21 +1,30 @@
 ---
-path: /pages/mindset-coaching
+path: "/pages/mindset-coaching"
 crumb: "Mindset Coaching"
-title: "Golf Mental Game & Mindset Coaching | Under Par"
-description: "Mindset coaching for golfers. Build confidence, a pre-shot and post-shot routine, and a game that holds up under pressure."
+title: "Golf Mental Game & Mindset Coaching (Full Access) | Under Par"
+description: "Mindset coaching with Under Par Full Access: confidence, pre-shot and post-shot routines, and performing under pressure. Currently full; join the waitlist."
+raw: true
 ---
-<p class="kicker">Mindset coaching</p>
-
-# Confidence you can count on when the round matters
-
-{{FULL_ACCESS}}
-
-Confidence leads to good shots. Good shots lead to a club twirl. Club twirls lead to swagger. Mindset coaching is how you start that chain on purpose.
-
-## What you'll work on
-
-- **Confidence.** Spot the negative thoughts that keep showing up and learn what to replace them with.
-- **Pre-shot and post-shot routines.** Build a routine for each part of your game, then review how well you stuck to it after each round. Start with our [simple pre-shot routine blueprint](/blogs/mindset/a-simple-blueprint-for-your-pre-shot-routine).
-- **Pressure.** A plan for big rounds so nerves don't make the decisions.
-
-Stuck in a rut? Read [7 ways to break out of a golf slump](/blogs/mindset/7-ways-to-break-out-of-a-golf-slump).
+<section class="photo-band" style="min-height:560px">
+<img src="{{CDN}}Under_Par_-_Mindset_Hero.png?width=2200" alt="Golfer holding his finish">
+<div class="wrap">
+<span class="pill-tag">Mindset Coaching · Full Access</span>
+<h1>Confidence + practice <em>= results</em></h1>
+<p class="lede">Confidence leads to good shots. Good shots lead to club twirls. Club twirls lead to swagger.</p>
+</div>
+</section>
+<section class="band">
+<div class="wrap">
+<p class="kicker">Work With a Coach to Put Swagger in Your Game</p>
+<h2>What you'll work on</h2>
+<div class="icon-steps">
+<div><img src="{{CDN}}hat-1.png?width=240" alt="Mindset developed through practice" loading="lazy"><h3>Confidence</h3><p>Spot the negative thoughts that need to go and replace them with strategies the pros use.</p></div>
+<div><img src="{{CDN}}field.png?width=240" alt="Training plan written by your coach" loading="lazy"><h3>Routines</h3><p>A pre-shot and post-shot routine for every part of your game, reviewed after each round.</p></div>
+<div><img src="{{CDN}}trophy-1.png?width=240" alt="Winning under pressure" loading="lazy"><h3>Pressure</h3><p>A mindset you can count on when the round, or the tournament, matters.</p></div>
+</div>
+</div>
+</section>
+<section class="band band-surface"><div class="wrap" style="max-width:860px">{{FULL_ACCESS}}
+<h2>Mental game reading</h2>
+<p><a href="/blogs/mindset/a-simple-blueprint-for-your-pre-shot-routine">A simple pre-shot routine (with checklist)</a> · <a href="/blogs/mindset/7-ways-to-break-out-of-a-golf-slump">7 ways out of a golf slump</a> · <a href="/blogs/mindset/5-things-i-learned-working-with-a-sports-psychologist">What I learned from a sports psychologist</a></p>
+</div></section>

@@ -9,6 +9,7 @@ updated: '2026-11-27'
 related:
 - mindset
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Wicked_Smart_Golf_Book_3D.png?width=1200"
 ---
 *By Michael Leonard, author of Wicked Smart Golf and Under Par mental coach*
 

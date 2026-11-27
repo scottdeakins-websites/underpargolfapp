@@ -10,6 +10,7 @@ related: [the-blog]
 faq:
   "Is the clock system good for wedges?": "It works for some players, but backswing positions like 9 o'clock are hard to feel under pressure. Changing your grip length while keeping the same swing is easier to repeat."
   "How do I find my wedge distances?": "Hit each wedge with a full grip, then choked down one inch, then two inches. Record the carry for each on a launch monitor or by pacing it off."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Untitled_design-4.png?width=1200"
 ---
 Most golfers are taught the **clock system**: shorten your backswing to 9 or 10 o'clock to hit it shorter. It sounds precise. Under pressure, it isn't. Nobody can feel the difference between 9:00 and 9:30 on the 18th hole. And on short shots, a long backswing stores more energy than you need, so you either fly it long or decelerate and chunk it.
 

@@ -8,10 +8,14 @@ date: '2022-07-12'
 updated: '2026-11-27'
 related:
 - mindset
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Will_Zalatoris_Putting_Stroke_in_Golf.png?width=1200"
 ---
 Will Zalatoris has one of the most criticized putting strokes in golf: short, a little jerky, and a regular target online. But how a stroke looks and how well it works aren't the same thing.
 
 ## What the numbers said (as of mid-2022)
+
+<img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/US_Open_-_Strokes_Gained_Putting.png?width=1200" alt="2022 U.S. Open strokes gained putting for Zalatoris and McIlroy" loading="lazy">
+
 
 - In the 2021 PGA Tour season, his strokes gained putting was essentially **tour average**.
 - In major championships since 2020, though, his strokes gained putting was among the **very best in golf** heading into the 2022 U.S. Open.

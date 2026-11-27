@@ -7,6 +7,7 @@ category: mindset
 date: 2023-03-08
 updated: 2026-11-27
 related: [the-blog]
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-03-17_at_1.11.03_PM.png?width=1200"
 ---
 The greatest athletes are remembered for their talent. Ask them, and most will tell you it was the work. Here's what four GOATs said about effort, and how to use it in your own game.
 

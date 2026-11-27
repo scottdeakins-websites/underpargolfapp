@@ -10,6 +10,7 @@ related: [the-blog, scratch-golfs-guide-to-putting]
 faq:
   "How long should a short game practice session be?": "This one takes about 84 minutes. If you only have 40, do one circuit of each block instead of two."
   "What is a good up-and-down percentage?": "Track it before you compare. Score every chip and pitch here, then compare against your own number from last week."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Female_Golfer_Chipping.png?width=1200"
 ---
 Good rounds aren't built on perfect ball striking. They're built on saving par when you miss the green. Dr. Bob Rotella makes this point all the time: the best scorers expect to hit bad shots, accept them, and still trust themselves to get up and down.
 

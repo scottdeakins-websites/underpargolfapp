@@ -28,7 +28,7 @@ featured:
 <div><div class="n">${{FULL_PRICE}}</div><div class="l">Full Access coaching<br>(waitlist)</div></div>
 </div>
 </div>
-<div class="phone"><img src="https://underpargolfapp.com/cdn/shop/files/Under_Par_Screen_Shot_400x.webp?v=1678725622" srcset="https://underpargolfapp.com/cdn/shop/files/Under_Par_Screen_Shot_400x.webp?v=1678725622 1x, https://underpargolfapp.com/cdn/shop/files/Under_Par_Screen_Shot_800x.webp?v=1678725622 2x" alt="The Under Par app showing a player's practice plan from their coach"></div>
+<div class="phone"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000" srcset="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000 1x, https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Under_Par_Screen_Shot.webp?width=1000 2x" alt="The Under Par app showing a player's practice plan from their coach"></div>
 </div>
 </section>
 
@@ -68,6 +68,18 @@ featured:
 </section>
 
 <section class="band">
+<div class="wrap">
+<p class="kicker">Inside the App</p>
+<h2>Your plan, in your pocket</h2>
+<div class="grid-3">
+<div class="tile"><div class="tile-img"><img src="{{CDN}}Practice_Plan_Mock_Up.png?width=600" alt="Weekly practice plan" loading="lazy"></div><div class="tile-body"><h3>Weekly Practice Plan</h3><p>Structured sessions that fit 1 to 7 days a week.</p></div></div>
+<div class="tile"><div class="tile-img"><img src="{{CDN}}Video_Practice_Session_Mock_Up.png?width=600" alt="Video drills" loading="lazy"></div><div class="tile-body"><h3>Video Drills</h3><p>Every drill explained, with a score to beat.</p></div></div>
+<div class="tile"><div class="tile-img"><img src="{{CDN}}Track_Golf_Fitness_Gains_with_Under_Par_to_Unlock_Power.png?width=600" alt="Fitness tracking" loading="lazy"></div><div class="tile-body"><h3>Golf Fitness</h3><p>Workouts with demo videos and personal-best tracking.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="band">
 <div class="wrap media-split">
 <div>
 <p class="kicker">A Modern Approach to Golf Improvement</p>
@@ -80,7 +92,7 @@ featured:
 </ul>
 <a class="btn btn-ghost" href="/pages/workout">Fitness Plan Details</a>
 </div>
-<img class="shot" src="https://underpargolfapp.com/cdn/shop/files/Golf_Specific_Fitness_Plan_from_Under_Par_Workouts_and_Strength_Programs_750_x_1200_px_1400x.png?v=1666724449" alt="Golf-specific fitness plan in the Under Par app" loading="lazy">
+<img class="shot" src="{{CDN}}Golfer_Working_Out_to_Unlock_Power_and_Consistency.png?width=1000" style="max-width:520px" alt="Golf-specific fitness plan in the Under Par app" loading="lazy">
 </div>
 </section>
 
@@ -116,12 +128,12 @@ featured:
 <div class="price">${{FULL_PRICE}}<small> / month</small></div>
 <ul class="checklist" style="margin-bottom:28px">
 <li>Everything in the App Plan</li>
-<li>Your own Under Par coach</li>
+<li>Your own Under Par coach, unlimited reviews</li>
 <li>Plans built and adjusted by your coach</li>
 <li>Swing, strategy and mindset feedback</li>
 <li>The Go Low Guarantee</li>
 </ul>
-<a class="btn btn-ghost" href="{{WAITLIST}}" style="display:block;text-align:center">Join the Waitlist</a>
+<a class="btn btn-ghost" href="{{WAITLIST}}" style="display:block;text-align:center">Join the Full Access Waitlist</a>
 </div>
 </div>
 </div>
@@ -146,6 +158,15 @@ featured:
 <p style="color:var(--text-2)">Full Access members work one-on-one with an Under Par coach. After six months, if you haven't cut at least two strokes off your handicap, your next six months are on us. Full Access is ${{FULL_PRICE}}/month and currently full.</p>
 <a class="btn" href="{{WAITLIST}}">Join the Waitlist</a>
 </div>
+</div>
+</section>
+
+<section class="photo-band">
+<img src="{{CDN}}Golfers_Playing_at_Dusk.png?width=2200" alt="Golfers walking a course at dusk" loading="lazy">
+<div class="wrap">
+<h2>All skill levels. <em>All golfer types.</em></h2>
+<p class="lede">From juniors to plus handicaps. If you have a work ethic and big golf goals, you'll fit right in.</p>
+<a class="btn btn-ghost" href="/pages/player-testimonials">Watch Player Stories</a>
 </div>
 </section>
 

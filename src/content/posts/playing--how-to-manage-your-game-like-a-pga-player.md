@@ -8,6 +8,7 @@ date: '2022-06-13'
 updated: '2026-11-27'
 related:
 - mindset
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Course_Strategy_from_the_PGA_Tour.jpg?width=1200"
 ---
 *By Michael Leonard*
 

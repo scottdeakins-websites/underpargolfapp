@@ -10,6 +10,7 @@ related: [short-game-improvement-guide, scratch-golfs-guide-to-putting]
 faq:
   "How long should high school golf practice be?": "Most teams get about 90 minutes to two hours after school. Stations with scored games keep every player busy for all of it."
   "How do you run golf practice with a big team?": "Split players into small groups and rotate through stations on a timer. Every station has a score, so you can track the whole roster."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Scratch_junior_golfer_chipping.jpg?width=1200"
 ---
 High school golf coaches have the same problem every afternoon: a dozen players, one range, about 90 minutes, and a match on Thursday. The answer is **stations, a timer and a score at every station.** Everyone is busy, practice looks like competition, and you end the week with data on every player.
 

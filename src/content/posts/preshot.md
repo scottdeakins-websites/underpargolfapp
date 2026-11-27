@@ -9,6 +9,7 @@ updated: 2026-11-27
 related: [full-swing-guide-from-scratch-golf]
 faq:
   "How long should a pre-shot routine take?": "Short enough that you can repeat it identically on every shot. Most good routines take well under 30 seconds from behind the ball to the swing."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Simple_Blueprint_for_Golf_Pre-Shot_Routine.png?width=1200"
 ---
 A pre-shot routine isn't a superstition. It's how you make the important decisions before you stand over the ball, so the only thing left to do is swing. The best routines are short, simple and identical every time.
 

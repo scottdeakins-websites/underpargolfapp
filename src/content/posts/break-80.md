@@ -10,6 +10,7 @@ related: [full-swing-guide-from-scratch-golf, scratch-golfs-guide-to-putting]
 faq:
   "What is the hardest part of breaking 80?": "Usually wedges and short game. Golfers shooting in the low 80s often hit the ball well enough; they lose shots inside 120 yards."
   "How many practice sessions a week do I need to break 80?": "Three focused sessions plus a round is a good target. One of those sessions should be entirely inside 100 yards."
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Break_80_Plan.png?width=1200"
 ---
 Golfers in the low 80s can usually hit the ball. What separates them from the 70s is **wasted shots inside 120 yards**: a wedge that comes up short, a chip to 15 feet, a 40-footer that turns into three putts.
 

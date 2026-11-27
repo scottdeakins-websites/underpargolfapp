@@ -8,6 +8,7 @@ date: '2022-04-01'
 updated: '2026-11-27'
 related:
 - the-blog
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Im_Practices_Putting.png?width=1200"
 ---
 A full day on the practice green, because that's where a huge share of your strokes happen.
 

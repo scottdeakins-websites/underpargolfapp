@@ -8,6 +8,7 @@ date: '2022-12-20'
 updated: '2026-11-27'
 related:
 - mindset
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Statistician_Planning_Out_a_Round_for_Lower_Scores_for_Golfer.png?width=1200"
 ---
 More and more tour players have a statistician on their team alongside a swing coach, caddie and trainer. Here's what they actually do, and how you can borrow the idea.
 

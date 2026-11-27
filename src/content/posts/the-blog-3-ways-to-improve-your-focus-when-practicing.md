@@ -8,6 +8,7 @@ date: '2022-04-06'
 updated: '2026-11-27'
 related:
 - mindset
+image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-04-06_at_8.55.33_AM.png?width=1200"
 ---
 *By Michael Leonard, Under Par mental coach and author of Wicked Smart Golf*
 
