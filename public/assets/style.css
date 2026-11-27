@@ -74,7 +74,7 @@ h1 em,h2 em{font-style:normal;color:var(--lime)}
 @media (max-width:860px){.hero-grid{grid-template-columns:1fr;gap:40px}.hero{padding:48px 0 64px}.hero:after{background:linear-gradient(180deg,rgba(12,17,14,.6),var(--bg) 70%)}}
 
 /* Phone frame for real app screenshots */
-.phone{width:300px;max-width:100%;margin:0 auto;border-radius:44px;border:10px solid #1E2621;background:#121813;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.5)}
+.phone{width:460px;max-width:100%;margin:0 auto}
 .phone img{width:100%}
 
 /* Media blocks */
