@@ -253,7 +253,7 @@ def crumbs(trail):
 
 
 def write(path, doc):
-    target = OUT / ("index.html" if path == "/" else path.strip("/") + "/index.html")
+    target = OUT / ("index.html" if path == "/" else path.strip("/") + ".html")
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(doc)
 
