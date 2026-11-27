@@ -24,7 +24,6 @@ featured:
 </div>
 <div class="stats">
 <div><div class="n">${{PRICE}}</div><div class="l">a month for<br>practice + fitness plans</div></div>
-<div><div class="n">${{ANNUAL_PRICE}}</div><div class="l">a year,<br>save $94</div></div>
 <div><div class="n">${{FULL_PRICE}}</div><div class="l">Full Access coaching<br>(waitlist)</div></div>
 </div>
 </div>
