@@ -1,6 +1,6 @@
 ---
 path: /pages/sample-practice-plan
-crumb: "Sample practice plan"
+crumb: "Sample Practice Plan"
 title: "Free 4-Day Golf Practice Plan (Sample Week) | Under Par"
 description: "A free 4-day golf practice plan from the Under Par coaching team. Full swing, chipping, putting and short game sessions with drills, reps and scoring."
 ---

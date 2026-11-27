@@ -1,6 +1,6 @@
 ---
 path: /pages/mindset-coaching
-crumb: "Mindset coaching"
+crumb: "Mindset Coaching"
 title: "Golf Mental Game & Mindset Coaching | Under Par"
 description: "Mindset coaching for golfers. Build confidence, a pre-shot and post-shot routine, and a game that holds up under pressure."
 ---

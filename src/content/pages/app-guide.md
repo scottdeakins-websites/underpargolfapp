@@ -1,6 +1,6 @@
 ---
 path: /pages/app-guide
-crumb: "The app"
+crumb: "The App"
 title: "Under Par Coaching App Guide | Under Par Performance Golf"
 description: "How the Under Par golf coaching app works. Today tab, practice and workout logging, round stats, on-demand sessions and your coach inbox."
 ---

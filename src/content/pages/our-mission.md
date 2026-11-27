@@ -1,6 +1,6 @@
 ---
 path: /pages/our-mission
-crumb: "Our mission"
+crumb: "Our Mission"
 title: "Our Mission | Under Par Performance Golf"
 description: "Why Under Par exists. Modern, affordable coaching for every golfer, and a better way for golf pros to coach."
 ---

@@ -1,6 +1,6 @@
 ---
 path: /pages/join-today
-crumb: "Start coaching"
+crumb: "Start Coaching"
 title: "Start Online Golf Coaching, $39/Month | Under Par Performance Golf"
 description: "Join Under Par for $39 a month. Unlimited coaching, a personalized practice and fitness plan, and the Go Low Guarantee. Cancel anytime."
 raw: true
@@ -27,7 +27,7 @@ schema:
 <p class="kicker">Start coaching</p>
 <h1>One price. A coach all month.</h1>
 <p class="lede">${{PRICE}} a month gets you unlimited coaching, a weekly practice plan built around your schedule, and a golf workout plan. Your coach reviews your practice and rounds and keeps the plan honest.</p>
-<div class="hero-actions"><a class="btn" id="signup" href="{{SIGNUP_URL}}">Sign up for ${{PRICE}}/month</a></div>
+<div class="hero-actions"><a class="btn" id="signup" href="{{SIGNUP_URL}}">Sign Up for ${{PRICE}}/Month</a></div>
 <p class="fine">Questions first? Email <a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a>.</p>
 </div>
 <div class="plan featured">
@@ -64,6 +64,6 @@ schema:
 <details><summary>How much time do I need?</summary><p>Plans work whether you have one day a week or seven. Your coach builds around the time you really have, including home and indoor sessions.</p></details>
 <details><summary>Do I need a low handicap?</summary><p>No. Your plan targets your next milestone: break 100, 90, 80 or par.</p></details>
 <details><summary>How do I talk to my coach?</summary><p>Through the Under Par app inbox. Post practice results, swing videos and round stats, and your coach responds there.</p></details>
-<p style="margin-top:32px"><a class="btn" href="{{SIGNUP_URL}}">Sign up for ${{PRICE}}/month</a></p>
+<p style="margin-top:32px"><a class="btn" href="{{SIGNUP_URL}}">Sign Up for ${{PRICE}}/Month</a></p>
 </div>
 </section>

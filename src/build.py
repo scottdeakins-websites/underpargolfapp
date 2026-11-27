@@ -29,8 +29,14 @@ CATEGORIES = {
     "golf-content": ("Features", "Podcasts, books and features from the Under Par team."),
 }
 
-NAV = [("Training", "/pages/resources"), ("Free practice plans", "/pages/sample-practice-plan"),
+NAV = [("Training", "/pages/resources"), ("Practice Plans", "/pages/sample-practice-plan"),
        ("Players", "/pages/player-testimonials"), ("Coaches", "/pages/coaches"), ("Blog", "/pages/blog")]
+
+# Media still hosted on the Shopify store's CDN (move into the repo before closing Shopify)
+SHOP = "https://underpargolfapp.com/cdn/shop/files/"
+LOGO_IMG = (f'<img class="logo" src="{SHOP}Under_Par_Golf_-_Full_Logo_200x.png?v=1650392890" '
+            f'srcset="{SHOP}Under_Par_Golf_-_Full_Logo_200x.png?v=1650392890 1x, {SHOP}Under_Par_Golf_-_Full_Logo_400x.png?v=1650392890 2x" '
+            'alt="Under Par Performance Golf" width="180" height="60">')
 
 # Every old Shopify blog URL (68). Ones not migrated yet redirect to their category hub.
 OLD_POSTS = """the-blog/top-5-indoor-training-tools-for-your-christmas-list
@@ -143,7 +149,7 @@ def head(title, desc, path, schema, og_type="website"):
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">{json.dumps(schema)}</script>
 </head>
@@ -157,10 +163,14 @@ def header(path):
     links = "".join(f'<a href="{h}"{cur if path.startswith(h) else ""}>{t}</a>' for t, h in NAV)
     return f"""<header class="site-head">
 <div class="wrap head-row">
-<a class="brand" href="/">{LOGO}<span>Under Par<b> Performance Golf</b></span></a>
-<nav class="nav" aria-label="Main">{links}</nav>
-<a class="btn btn-small" href="{JOIN}">Start for ${PRICE}/mo</a>
+<a class="brand" href="/">{LOGO_IMG}</a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open Menu"><span></span><span></span><span></span></button>
+<nav class="nav" id="site-nav" aria-label="Main">{links}<a class="btn btn-small nav-cta" href="{JOIN}">Start Coaching</a></nav>
 </div>
+<script>
+(function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');
+b.addEventListener('click',function(){{var o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));b.setAttribute('aria-label',o?'Open Menu':'Close Menu');n.classList.toggle('open',!o);document.body.classList.toggle('menu-open',!o);}});}})();
+</script>
 </header>
 <main id="main">
 """
@@ -172,7 +182,7 @@ def cta_band(heading="Get a coach in your corner.", text=None):
     return f"""<section class="cta-band">
 <div class="wrap cta-row">
 <div><h2>{heading}</h2><p>{text}</p></div>
-<a class="btn btn-light" href="{JOIN}">Start coaching</a>
+<a class="btn btn-light" href="{JOIN}">Start Coaching</a>
 </div>
 </section>
 """
@@ -183,12 +193,12 @@ def footer():
     return f"""</main>
 <footer class="site-foot">
 <div class="wrap foot-grid">
-<div class="foot-brand"><a class="brand" href="/">{LOGO}<span>Under Par<b> Performance Golf</b></span></a>
+<div class="foot-brand"><a class="brand" href="/">{LOGO_IMG}</a>
 <p>Online golf coaching for players who want lower scores, not more swing thoughts.</p>
 <p>1 Fayette St., Suite 215<br>Conshohocken, PA 19428<br><a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a></p></div>
-<div><h3>Coaching</h3><a href="/pages/practice-plan">Practice plan</a><a href="/pages/workout">Golf workouts</a><a href="/pages/swing-coaching">Swing coaching</a><a href="/pages/playing-strategies">Playing strategy</a><a href="/pages/mindset-coaching">Mindset coaching</a><a href="/pages/app-guide">The app</a></div>
-<div><h3>Learn</h3>{cats}<a href="/pages/download">Free practice sessions</a></div>
-<div><h3>Company</h3><a href="/pages/our-mission">Our mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a><a href="https://twitter.com/UnderParCoach">X / Twitter</a><a href="https://www.facebook.com/Under-Par-Performance-Golf-102095152341941">Facebook</a></div>
+<div><h3>Coaching</h3><a href="/pages/practice-plan">Practice Plan</a><a href="/pages/workout">Golf Workouts</a><a href="/pages/swing-coaching">Swing Coaching</a><a href="/pages/playing-strategies">Playing Strategy</a><a href="/pages/mindset-coaching">Mindset Coaching</a><a href="/pages/app-guide">The App</a></div>
+<div><h3>Learn</h3>{cats}<a href="/pages/download">Free Practice Sessions</a></div>
+<div><h3>Company</h3><a href="/pages/our-mission">Our Mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a><a href="https://twitter.com/UnderParCoach">X / Twitter</a><a href="https://www.facebook.com/Under-Par-Performance-Golf-102095152341941">Facebook</a></div>
 </div>
 <div class="wrap foot-legal"><span>© {datetime.date.today().year} Scratch Golf, Inc. d/b/a Under Par</span><a href="https://underpargolfapp.com/policies/privacy-policy">Privacy</a><a href="https://underpargolfapp.com/policies/terms-of-service">Terms</a></div>
 </footer>
@@ -305,7 +315,7 @@ def build():
 <div class="prose">{render(p['html'])}{faq_html}</div>
 <aside class="coach-note"><h2>Want this built into your week?</h2>
 <p>Your Under Par coach turns sessions like this into a plan that fits your schedule, reviews your results, and tells you what to change. ${PRICE}/month.</p>
-<a class="btn" href="{JOIN}">Start coaching</a></aside>
+<a class="btn" href="{JOIN}">Start Coaching</a></aside>
 </article>
 <section class="wrap related"><h2>Keep reading</h2><div class="post-grid">{"".join(card(x) for x in related)}</div></section>
 """

@@ -1,6 +1,6 @@
 ---
 path: /pages/playing-strategies
-crumb: "Playing strategy"
+crumb: "Playing Strategy"
 title: "Golf Course Management & Playing Strategy Coaching | Under Par"
 description: "Course management coaching from Under Par. Yardage books, tee box angles, post-round reviews and game plans for big rounds."
 ---

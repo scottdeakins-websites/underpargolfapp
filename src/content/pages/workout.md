@@ -1,12 +1,17 @@
 ---
 path: /pages/workout
-crumb: "Golf workouts"
+crumb: "Golf Workouts"
 title: "Golf Workout Plan for Speed, Rotation & Power | Under Par"
 description: "A golf-specific workout plan, 4\u20136 days a week and 30\u201375 minutes per session, tracked in the Under Par app with your coach watching your results."
 ---
 <p class="kicker">Golf workouts</p>
 
-# Train for the swing you want to make
+# Golf Specific Workout Plan
+
+<picture>
+<source media="(max-width: 700px)" srcset="https://underpargolfapp.com/cdn/shop/files/Golf_Specific_Fitness_Plan_from_Under_Par_Workouts_and_Strength_Programs_750_x_1200_px_1400x.png?v=1666724449">
+<img class="banner-img" src="https://underpargolfapp.com/cdn/shop/files/Golf_Specific_Fitness_Plan_from_Under_Par_Workouts_and_Strength_Programs_-2_1400x.png?v=1666724376" alt="Under Par golf-specific workout and strength program in the app">
+</picture>
 
 A better turn and more speed usually start in the gym. Your Under Par workout plan is built for golf, and it fits around the rest of your week.
 

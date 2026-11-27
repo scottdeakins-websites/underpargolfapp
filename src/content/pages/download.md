@@ -1,6 +1,6 @@
 ---
 path: /pages/download
-crumb: "Free practice sessions"
+crumb: "Free Practice Sessions"
 title: "Free Golf Practice Plan PDF: 4 Printable Sessions | Under Par"
 description: "Download a free golf practice plan PDF. Four scored sessions covering full swing, wedges, short game and putting, ready to print and take to the range."
 ---
