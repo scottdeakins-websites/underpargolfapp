@@ -13,7 +13,9 @@ OUT = ROOT.parent / "public"
 SITE = "https://underpargolfapp.com"
 
 # ---- Sign-up link (placeholder until the Mighty Forms sign-up page URL is ready) ----
-SIGNUP_URL = "mailto:team@underpargolfapp.com?subject=I%27d%20like%20to%20start%20coaching"
+SIGNUP_URL = "/pages/join-the-under-par-team-standard-monthly"
+MONTHLY_URL = "/pages/join-the-under-par-team-standard-monthly"
+ANNUAL_URL = "/pages/join-the-under-par-team-standard-annually"
 PRICE = 39
 JOIN = "/pages/join-today"
 
@@ -149,7 +151,7 @@ def head(title, desc, path, schema, og_type="website"):
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">{json.dumps(schema)}</script>
 </head>
@@ -165,7 +167,7 @@ def header(path):
 <div class="wrap head-row">
 <a class="brand" href="/">{LOGO_IMG}</a>
 <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open Menu"><span></span><span></span><span></span></button>
-<nav class="nav" id="site-nav" aria-label="Main">{links}<a class="btn btn-small nav-cta" href="{JOIN}">Start Coaching</a></nav>
+<nav class="nav" id="site-nav" aria-label="Main">{links}<a class="btn btn-small nav-cta" href="{JOIN}">Get Coaching</a></nav>
 </div>
 <script>
 (function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');
@@ -176,13 +178,14 @@ b.addEventListener('click',function(){{var o=b.getAttribute('aria-expanded')==='
 """
 
 
-def cta_band(heading="Get a coach in your corner.", text=None):
-    text = text or (f"Unlimited coaching, a practice plan built around your week, and a golf fitness plan. "
+def cta_band(heading="Ready to <em>Go Low?</em>", text=None):
+    text = text or (f"Unlimited coaching, a practice plan built around your week and a golf fitness plan. "
                     f"${PRICE} a month, and if you don't drop 2 strokes in 6 months, the next 6 are free.")
     return f"""<section class="cta-band">
-<div class="wrap cta-row">
-<div><h2>{heading}</h2><p>{text}</p></div>
-<a class="btn btn-light" href="{JOIN}">Start Coaching</a>
+<div class="wrap">
+<h2>{heading}</h2>
+<p>{text}</p>
+<a class="btn" href="{JOIN}">Get Coaching</a>
 </div>
 </section>
 """
@@ -233,7 +236,8 @@ def write(path, doc):
 
 def render(text):
     return (text.replace("{{JOIN}}", JOIN).replace("{{PRICE}}", str(PRICE))
-            .replace("{{SIGNUP_URL}}", SIGNUP_URL))
+            .replace("{{SIGNUP_URL}}", SIGNUP_URL).replace("{{MONTHLY_URL}}", MONTHLY_URL)
+            .replace("{{ANNUAL_URL}}", ANNUAL_URL))
 
 
 def build():

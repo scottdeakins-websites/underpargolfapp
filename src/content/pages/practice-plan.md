@@ -8,7 +8,7 @@ description: "A weekly golf practice plan built around your schedule, your stats
 
 # A practice plan that knows what you need to work on
 
-<img class="phone-shot" src="https://underpargolfapp.com/cdn/shop/files/Under_Par_Screen_Shot_400x.webp?v=1678725622" alt="Sample golf practice plan screen from the Under Par app" style="margin:32px 0">
+<img class="shot" src="https://underpargolfapp.com/cdn/shop/files/Under_Par_Screen_Shot_400x.webp?v=1678725622" alt="Sample golf practice plan screen from the Under Par app" style="margin:32px 0">
 
 Hitting a bucket of drivers feels like practice. A plan tells you what to hit, how many, and how to score it, so you can see whether you're getting better.
 
