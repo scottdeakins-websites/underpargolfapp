@@ -8,4 +8,10 @@
 /collections/*  /pages/join-today  302
 /products/*  /pages/join-today  302
 
+# Old Shopify sitemap files
+/sitemap_pages_1.xml  /sitemap.xml  301
+/sitemap_blogs_1.xml  /sitemap.xml  301
+/sitemap_products_1.xml  /sitemap.xml  301
+/sitemap_collections_1.xml  /sitemap.xml  301
+
 # Posts not migrated yet: send to their topic page (302 until migrated)

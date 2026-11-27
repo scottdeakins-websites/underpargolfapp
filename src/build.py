@@ -364,6 +364,8 @@ def build():
     lines = ["# Old Shopify URLs", "/pages/reviews  /pages/player-testimonials  301",
              "/pages/training  /pages/resources  301", "/blogs  /pages/blog  301", "/blog  /pages/blog  301",
              f"/account  {JOIN}  302", f"/cart  {JOIN}  302", f"/collections/*  {JOIN}  302", f"/products/*  {JOIN}  302",
+             "", "# Old Shopify sitemap files", "/sitemap_pages_1.xml  /sitemap.xml  301", "/sitemap_blogs_1.xml  /sitemap.xml  301",
+             "/sitemap_products_1.xml  /sitemap.xml  301", "/sitemap_collections_1.xml  /sitemap.xml  301",
              "", "# Posts not migrated yet: send to their topic page (302 until migrated)"]
     for old in OLD_POSTS:
         path = "/blogs/" + old
