@@ -1,0 +1,21 @@
+---
+path: /pages/swing-coaching
+crumb: "Swing coaching"
+title: "Online Golf Swing Coaching & Video Feedback | Under Par"
+description: "Unlimited online swing coaching. Your coach works with the swing you have to make it consistent, with feedback after every practice and round."
+---
+<p class="kicker">Swing coaching</p>
+
+# We coach your swing, not a textbook swing
+
+Plenty of great players have moves that wouldn't make a magazine cover. Your coach looks for what gives you consistent results, even if that means keeping something unconventional.
+
+## How it works
+
+- **Send video from practice.** Upload swings in the app alongside your session results.
+- **Check in after every round and session.** Coaching is ongoing, not one lesson and then silence.
+- **Get specific feedback.** One or two things to work on, plus the drill to do it.
+
+## When to change and when to leave it alone
+
+Not every miss needs a swing change. Read our guide to [making swing changes without wrecking your season](/blogs/full-swing-guide-from-scratch-golf/the-art-of-making-swing-changes), and check your [ball position](/blogs/full-swing-guide-from-scratch-golf/the-fundamentals-of-ball-position) before anything else.
