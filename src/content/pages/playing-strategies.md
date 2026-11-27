@@ -8,6 +8,8 @@ description: "Course management coaching from Under Par. Yardage books, tee box 
 
 # Save strokes without changing your swing
 
+{{FULL_ACCESS}}
+
 Bad decisions cost more strokes than bad swings. Strategy coaching is where you pick those strokes up.
 
 ## Course management tools

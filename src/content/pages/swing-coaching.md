@@ -2,11 +2,13 @@
 path: /pages/swing-coaching
 crumb: "Swing Coaching"
 title: "Online Golf Swing Coaching & Video Feedback | Under Par"
-description: "Unlimited online swing coaching. Your coach works with the swing you have to make it consistent, with feedback after every practice and round."
+description: "Swing coaching is part of Under Par Full Access ($199/month): your own coach reviews your swing video after practice and rounds. Currently full; join the waitlist."
 ---
 <p class="kicker">Swing coaching</p>
 
 # We coach your swing, not a textbook swing
+
+{{FULL_ACCESS}}
 
 <picture>
 <source media="(max-width: 700px)" srcset="https://underpargolfapp.com/cdn/shop/files/Swing_Coaching_650_x_650_px_1400x.png?v=1663698492">

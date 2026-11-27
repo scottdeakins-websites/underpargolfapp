@@ -29,4 +29,4 @@ Big goals take sustained effort. Find ways to enjoy it: games, challenges, compe
 
 ## Learn from the tour
 
-Tour players' goals are heavily statistical, because a single stroke per round is worth a fortune at that level. Justin Thomas has shared his season goals publicly, and they read like a stats sheet. Your strokes may not be worth that much, but stat goals work the same way for you. And like tour players, it helps to have someone checking in on your progress. That's what an Under Par coach does.
+Tour players' goals are heavily statistical, because a single stroke per round is worth a fortune at that level. Justin Thomas has shared his season goals publicly, and they read like a stats sheet. Your strokes may not be worth that much, but stat goals work the same way for you. And like tour players, it helps to have someone checking in on your progress. That's what an Under Par Full Access coach does.

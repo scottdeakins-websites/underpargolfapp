@@ -14,7 +14,7 @@ Hitting a bucket of drivers feels like practice. A plan tells you what to hit, h
 
 ## Built around your week
 
-Your coach builds the plan around the time you actually have, whether that's **one day a week or seven**. It's based on your strengths and weaknesses, taken from your recent playing stats, and aimed at your next milestone:
+Plans fit around the time you actually have, whether that's **one day a week or seven**, and they're aimed at your next milestone:
 
 | Your goal | Where the plan focuses |
 |---|---|
@@ -27,10 +27,12 @@ Your coach builds the plan around the time you actually have, whether that's **o
 
 - **Drills and challenges** that build fundamentals and give you a score to beat
 - **Video drills** that explain the goal of each session
-- **Results tracking**: log scores, add comments and upload video for your coach
+- **Results tracking**: log scores and comments, and see your progress
 - **On-demand sessions and pro tips** you can add any time
 - **Home and indoor sessions** for when you can't get to the range
 
 ## Try one first
 
-Want to see what a week looks like? Our [free 4-day sample practice plan](/pages/sample-practice-plan) is the same structure members use. The [1-hour practice session](/blogs/the-blog/best-1-hour-golf-practice-session) is a good place to start.
+Want to see what a week looks like? Our [free 4-day sample practice plan](/pages/sample-practice-plan) follows the same structure as the app plans.
+
+Practice plans are included in the App Plan from ${{PRICE}}/month. Want a coach to build and adjust your plan from your stats? That's [Full Access](/pages/wait-list) (${{FULL_PRICE}}/month, currently full). The [1-hour practice session](/blogs/the-blog/best-1-hour-golf-practice-session) is a good place to start.

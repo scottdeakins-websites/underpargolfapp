@@ -50,4 +50,4 @@ Those look low, and for a scratch player they're strong targets. But **compare y
 
 ## Turn stats into practice
 
-Find your weakest number and give it the most practice time. That's step 1 of [how to build a golf practice plan](/blogs/the-blog/golf-practice-plan). Under Par coaches read members' stats every week and adjust the plan from them.
+Find your weakest number and give it the most practice time. That's step 1 of [how to build a golf practice plan](/blogs/the-blog/golf-practice-plan). Under Par Full Access coaches read their players' stats every week and adjust the plan from them.

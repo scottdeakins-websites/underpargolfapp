@@ -8,7 +8,7 @@ description: "A free 4-day golf practice plan from the Under Par coaching team. 
 
 # A free 4-day golf practice plan
 
-This is the structure our coaches use for members, built for any skill level. Each day links to a full session with drills, rep counts and a way to score yourself. Do them in order, keep your scores, and repeat the week to see what moved.
+This is the same structure as our app practice plans, built for any skill level. Each day links to a full session with drills, rep counts and a way to score yourself. Do them in order, keep your scores, and repeat the week to see what moved.
 
 | Day | Session | Focus | Time |
 |---|---|---|---|
@@ -19,7 +19,7 @@ This is the structure our coaches use for members, built for any skill level. Ea
 
 ## Make it yours
 
-The sample week is balanced across the whole game. A real plan isn't. If you're losing six shots a round around the greens, that's where your week goes. Your Under Par coach reads your stats, picks the sessions and changes them as your scores change.
+The sample week is balanced across the whole game. A real plan isn't. If you're losing six shots a round around the greens, that's where your week goes. With [Full Access](/pages/wait-list), your coach reads your stats, picks the sessions and changes them as your scores change. The App Plan (from ${{PRICE}}/month) gives you structured weekly plans to follow.
 
 ## Short on time?
 

@@ -8,6 +8,8 @@ description: "Mindset coaching for golfers. Build confidence, a pre-shot and pos
 
 # Confidence you can count on when the round matters
 
+{{FULL_ACCESS}}
+
 Confidence leads to good shots. Good shots lead to a club twirl. Club twirls lead to swagger. Mindset coaching is how you start that chain on purpose.
 
 ## What you'll work on

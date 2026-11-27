@@ -2,7 +2,7 @@
 path: /pages/workout
 crumb: "Golf Workouts"
 title: "Golf Workout Plan for Speed, Rotation & Power | Under Par"
-description: "A golf-specific workout plan, 4\u20136 days a week and 30\u201375 minutes per session, tracked in the Under Par app with your coach watching your results."
+description: "A golf-specific workout plan, 4\u20136 days a week and 30\u201375 minutes per session, in the Under Par app. Included in the App Plan from $39/month."
 ---
 <p class="kicker">Golf workouts</p>
 
@@ -17,7 +17,7 @@ A better turn and more speed usually start in the gym. Your Under Par workout pl
 
 ## The schedule
 
-Plan on **4–6 days a week, about 30–75 minutes** each. Move days around whenever you need to. Workouts live in the Under Par app next to your practice plan, and your coach sees your results as you log them.
+Plan on **4–6 days a week, about 30–75 minutes** each. Move days around whenever you need to. Workouts live in the Under Par app next to your practice plan, and you log every result. Included in the App Plan from ${{PRICE}}/month.
 
 ## What it trains
 

@@ -51,4 +51,4 @@ Your carry numbers become your [wedge distance chart](/blogs/full-swing-guide-fr
 
 Want the full versions? Start with the [4-day sample practice plan](/pages/sample-practice-plan).
 
-<div class="print-only callout" markdown="1">**Want a plan built for your game?** An Under Par coach builds your weekly practice and fitness plan, reviews every session and adjusts it as your scores change. $39/month at **underpargolfapp.com**.</div>
+<div class="print-only callout" markdown="1">**Want a full weekly plan?** The Under Par app has structured practice and golf fitness plans from $39/month at **underpargolfapp.com**.</div>

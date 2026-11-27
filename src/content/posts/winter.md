@@ -46,4 +46,4 @@ Winter is when you build the strength and mobility that turn into speed in April
 
 ## When spring comes
 
-Take the swing change to the course in casual rounds first, and switch to a scoring plan like the [break 80](/blogs/the-blog/break-80-practice-plan) or [break 90](/blogs/the-blog/break-90-practice-plan) program. Under Par members get a winter plan built for their own setup, whether that's a simulator, a net or a hallway, with a coach reviewing their swing videos.
+Take the swing change to the course in casual rounds first, and switch to a scoring plan like the [break 80](/blogs/the-blog/break-80-practice-plan) or [break 90](/blogs/the-blog/break-90-practice-plan) program. The Under Par app has practice and fitness plans you can follow all winter, from $39/month.

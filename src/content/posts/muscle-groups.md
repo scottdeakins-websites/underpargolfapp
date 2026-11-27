@@ -49,4 +49,4 @@ Grip strength affects clubface control, and it matters most out of rough. **Wris
 
 Start simple: add one or two of these exercises to your routine each day, rotating through all five groups across the week. Once that's a habit, move to two or three full sessions a week. The off-season is the best time to build up. See the [winter practice plan](/blogs/the-blog/winter-golf-practice-plan).
 
-Under Par members get a full [golf workout plan](/pages/workout): 4–6 days a week, 30–75 minutes, with percentage-based strength work, monthly cycles and demo videos for every exercise, tracked by their coach.
+The Under Par app includes a full [golf workout plan](/pages/workout): 4–6 days a week, 30–75 minutes, with percentage-based strength work, monthly cycles and demo videos for every exercise.

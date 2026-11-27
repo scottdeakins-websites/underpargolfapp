@@ -47,4 +47,4 @@ You'll have bad sessions. When it stalls, remember why you started the change. C
 | Tournament week | Fundamentals only. Short game and routine. |
 | All year | Keep notes on your best swing thoughts. |
 
-Not sure the change is worth making? That's exactly what [swing coaching](/pages/swing-coaching) is for: your coach works with the swing you have and changes only what's costing you shots.
+Not sure the change is worth making? That's what [swing coaching](/pages/swing-coaching) in Full Access is for: your coach works with the swing you have and changes only what's costing you shots.

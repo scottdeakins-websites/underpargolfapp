@@ -8,6 +8,8 @@ description: "Meet the Under Par coaching team, Scott Deakins, John Guillaume an
 
 # The people reading your practice logs
 
+Our coaches work with Full Access members. Full Access (${{FULL_PRICE}}/month) is currently full; [join the waitlist](/pages/wait-list).
+
 ## Scott Deakins: Founder and coach
 
 Scott started Under Par to bring together two things he cares about, software and golf. His coaching is goal-first and covers the whole game: swing mechanics, pre-shot routine and, above all, how you plan your practice.

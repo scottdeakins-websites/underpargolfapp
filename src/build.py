@@ -17,6 +17,9 @@ SIGNUP_URL = "/pages/join-the-under-par-team-standard-monthly"
 MONTHLY_URL = "/pages/join-the-under-par-team-standard-monthly"
 ANNUAL_URL = "/pages/join-the-under-par-team-standard-annually"
 PRICE = 39
+ANNUAL_PRICE = 374
+FULL_PRICE = 199
+WAITLIST = "/pages/wait-list"
 JOIN = "/pages/join-today"
 
 CATEGORIES = {
@@ -167,7 +170,7 @@ def header(path):
 <div class="wrap head-row">
 <a class="brand" href="/">{LOGO_IMG}</a>
 <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open Menu"><span></span><span></span><span></span></button>
-<nav class="nav" id="site-nav" aria-label="Main">{links}<a class="btn btn-small nav-cta" href="{JOIN}">Get Coaching</a></nav>
+<nav class="nav" id="site-nav" aria-label="Main">{links}<a class="btn nav-cta" href="{JOIN}">Get Started</a></nav>
 </div>
 <script>
 (function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');
@@ -179,13 +182,13 @@ b.addEventListener('click',function(){{var o=b.getAttribute('aria-expanded')==='
 
 
 def cta_band(heading="Ready to <em>Go Low?</em>", text=None):
-    text = text or (f"Unlimited coaching, a practice plan built around your week and a golf fitness plan. "
-                    f"${PRICE} a month, and if you don't drop 2 strokes in 6 months, the next 6 are free.")
+    text = text or (f"Structured practice and golf fitness plans in the Under Par app, from ${PRICE} a month. "
+                    f"Want a personal coach? Full Access coaching (${FULL_PRICE}/month) is currently full, so join the waitlist.")
     return f"""<section class="cta-band">
 <div class="wrap">
 <h2>{heading}</h2>
 <p>{text}</p>
-<a class="btn" href="{JOIN}">Get Coaching</a>
+<div class="hero-actions" style="justify-content:center"><a class="btn" href="{JOIN}">Get Started</a><a class="btn btn-ghost" href="{WAITLIST}">Join the Coaching Waitlist</a></div>
 </div>
 </section>
 """
@@ -198,7 +201,7 @@ def footer():
 <div class="wrap foot-grid">
 <div class="foot-brand"><a class="brand" href="/">{LOGO_IMG}</a>
 <p>Online golf coaching for players who want lower scores, not more swing thoughts.</p>
-<p>1 Fayette St., Suite 215<br>Conshohocken, PA 19428<br><a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a></p></div>
+<p>121 N. Wayne Avenue, Suite 201<br>Wayne, PA 19087<br><a href="mailto:team@underpargolfapp.com">team@underpargolfapp.com</a></p></div>
 <div><h3>Coaching</h3><a href="/pages/practice-plan">Practice Plan</a><a href="/pages/workout">Golf Workouts</a><a href="/pages/swing-coaching">Swing Coaching</a><a href="/pages/playing-strategies">Playing Strategy</a><a href="/pages/mindset-coaching">Mindset Coaching</a><a href="/pages/app-guide">The App</a></div>
 <div><h3>Learn</h3>{cats}<a href="/pages/download">Free Practice Sessions</a></div>
 <div><h3>Company</h3><a href="/pages/our-mission">Our Mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a><a href="https://twitter.com/UnderParCoach">X / Twitter</a><a href="https://www.facebook.com/Under-Par-Performance-Golf-102095152341941">Facebook</a></div>
@@ -212,15 +215,21 @@ def footer():
 
 ORG = {"@type": "Organization", "@id": SITE + "/#org", "name": "Under Par Performance Golf", "url": SITE + "/",
        "email": "team@underpargolfapp.com",
-       "address": {"@type": "PostalAddress", "streetAddress": "1 Fayette St., Suite 215",
-                   "addressLocality": "Conshohocken", "addressRegion": "PA", "postalCode": "19428",
+       "address": {"@type": "PostalAddress", "streetAddress": "121 N. Wayne Avenue, Suite 201",
+                   "addressLocality": "Wayne", "addressRegion": "PA", "postalCode": "19087",
                    "addressCountry": "US"},
        "sameAs": ["https://twitter.com/UnderParCoach",
                   "https://www.facebook.com/Under-Par-Performance-Golf-102095152341941"]}
-SERVICE = {"@type": "Service", "name": "Under Par online golf coaching", "serviceType": "Online golf coaching",
+SERVICE = {"@type": "Service", "name": "Under Par golf practice and fitness plans", "serviceType": "Online golf practice and fitness plans",
            "provider": {"@id": SITE + "/#org"}, "areaServed": "Worldwide",
-           "offers": {"@type": "Offer", "price": str(PRICE), "priceCurrency": "USD",
-                      "description": "Monthly membership: unlimited coaching, personalized practice plan and golf workout plan"}}
+           "offers": [
+               {"@type": "Offer", "name": "App plan, monthly", "price": str(PRICE), "priceCurrency": "USD",
+                "description": "Online practice and fitness plans in the Under Par app, billed monthly"},
+               {"@type": "Offer", "name": "App plan, annual", "price": str(ANNUAL_PRICE), "priceCurrency": "USD",
+                "description": "Online practice and fitness plans in the Under Par app, billed yearly"},
+               {"@type": "Offer", "name": "Full Access coaching", "price": str(FULL_PRICE), "priceCurrency": "USD",
+                "availability": "https://schema.org/OutOfStock",
+                "description": "Personal coaching plus practice and fitness plans. Currently full; waitlist open."}]}
 
 
 def crumbs(trail):
@@ -234,10 +243,17 @@ def write(path, doc):
     target.write_text(doc)
 
 
+FULL_NOTE = (f'<div class="callout full-note"><p><strong>Personal coaching is part of Full Access (${FULL_PRICE}/month), '
+             f'which is currently full.</strong> The ${PRICE}/month app plan includes the online practice and fitness plans, '
+             f'not access to a coach. <a href="{WAITLIST}">Join the Full Access waitlist</a>.</p></div>')
+
+
 def render(text):
     return (text.replace("{{JOIN}}", JOIN).replace("{{PRICE}}", str(PRICE))
             .replace("{{SIGNUP_URL}}", SIGNUP_URL).replace("{{MONTHLY_URL}}", MONTHLY_URL)
-            .replace("{{ANNUAL_URL}}", ANNUAL_URL))
+            .replace("{{ANNUAL_URL}}", ANNUAL_URL).replace("{{ANNUAL_PRICE}}", str(ANNUAL_PRICE))
+            .replace("{{FULL_PRICE}}", str(FULL_PRICE)).replace("{{WAITLIST}}", WAITLIST)
+            .replace("{{FULL_ACCESS}}", FULL_NOTE))
 
 
 def build():
@@ -317,9 +333,9 @@ def build():
 <h1>{esc(p['title'])}</h1>
 <p class="post-meta">Under Par Coaching Team · Updated <time datetime="{p['updated']}">{updated}</time> · {max(2, round(p['words'] / 230))} min read</p>
 <div class="prose">{render(p['html'])}{faq_html}</div>
-<aside class="coach-note"><h2>Want this built into your week?</h2>
-<p>Your Under Par coach turns sessions like this into a plan that fits your schedule, reviews your results, and tells you what to change. ${PRICE}/month.</p>
-<a class="btn" href="{JOIN}">Start Coaching</a></aside>
+<aside class="coach-note"><h2>Want sessions like this every week?</h2>
+<p>The Under Par app gives you structured practice and golf fitness plans with video drills and results tracking, from ${PRICE} a month. Personal coaching is our Full Access plan (${FULL_PRICE}/month), currently full with a waitlist.</p>
+<a class="btn" href="{JOIN}">See Plans</a></aside>
 </article>
 <section class="wrap related"><h2>Keep reading</h2><div class="post-grid">{"".join(card(x) for x in related)}</div></section>
 """

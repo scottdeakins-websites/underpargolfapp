@@ -73,4 +73,4 @@ Compare your practice scores and your round stats every two weeks. If your up-an
 
 ## The part a plan can't do on its own
 
-Steps 1 and 5 are where most golfers get stuck. Reading your own stats honestly is hard, and so is knowing which drill fixes which problem. That's the job of an Under Par coach: they build the plan from your stats, review every session you log and change it as your scores change.
+Steps 1 and 5 are where most golfers get stuck. Reading your own stats honestly is hard, and so is knowing which drill fixes which problem. With Under Par Full Access, a coach builds the plan from your stats, reviews every session and changes it as your scores change. Full Access is currently full; the App Plan gives you structured practice and fitness plans from $39/month.

@@ -222,3 +222,9 @@ details p{margin:10px 0 0;color:var(--text-2)}
 @media print{body{background:#fff;color:#000}.site-head,.site-foot,.cta-band,.coach-note,.related,.btn,.crumbs,.menu-btn{display:none}.print-only{display:block}.page{padding:0}.prose p,.prose li,.prose td{color:#000}.prose table{background:#fff;page-break-inside:avoid}.prose th{background:#eee;color:#000}h2{page-break-after:avoid}}
 .band-light .btn-dark{color:var(--text)}
 .band-light .btn-dark:hover{color:#fff}
+.nav .nav-cta{padding:14px 26px;font-size:16px;white-space:nowrap}
+.full-note{border-color:var(--lime)}
+.full-tag{display:inline-block;border:1px solid var(--lime);color:var(--lime);font:700 11px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px;vertical-align:middle}
+.band-light .full-tag{border-color:#0C110E;color:#0C110E}
+.vs-3>div{flex:1 1 300px;max-width:380px}
+.plan.is-full{opacity:.92}

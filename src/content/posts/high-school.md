@@ -50,4 +50,4 @@ Keep one sheet per player with weekly station scores and match stats: fairways, 
 
 When the season ends, move the team to the [winter practice plan](/blogs/the-blog/winter-golf-practice-plan) and a strength routine built around the [5 muscle groups golfers need](/blogs/fitness-for-golfers/5-muscle-groups-to-focus-on-to-maximize-your-golf-fitness).
 
-*Players who want individual coaching between practices can work with an Under Par coach for $39 a month.*
+*Players can follow structured practice and fitness plans in the Under Par app between team practices, from $39 a month.*

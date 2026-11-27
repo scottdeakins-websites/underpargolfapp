@@ -50,4 +50,4 @@ After enough shots, most monitors draw a **dispersion pattern** for each club: t
 
 Range balls often fly differently from your gamer ball. Adjust your numbers, or test with your own ball when you can.
 
-Want help turning the data into a plan? That's what an Under Par coach does with members' numbers.
+Want a coach to turn the data into a plan? That's part of Under Par [Full Access](/pages/wait-list).

@@ -61,4 +61,4 @@ Five rounds. Each round is five minutes:
 - **Push hard:** the rest minute is built in.
 - **Stay consistent:** try to keep your reps within about 20% from round 1 to round 5.
 
-Why these muscles? See [the 5 muscle groups golfers should train](/blogs/fitness-for-golfers/5-muscle-groups-to-focus-on-to-maximize-your-golf-fitness). Members get a full [golf workout plan](/pages/workout), 4–6 days a week.
+Why these muscles? See [the 5 muscle groups golfers should train](/blogs/fitness-for-golfers/5-muscle-groups-to-focus-on-to-maximize-your-golf-fitness). The [golf workout plan](/pages/workout) in the Under Par app runs 4–6 days a week, from $39/month.

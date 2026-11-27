@@ -40,5 +40,5 @@ Results vary by player, but most tour players clearly see value in it. Clear, da
 You don't need a statistician. You need:
 
 1. **Your stats.** Start [tracking your golf stats](/blogs/playing-strategies-for-golfers/tracking-golf-stats-a-great-way-to-improve-your-game).
-2. **Someone to read them honestly** and turn them into a plan. That's what an Under Par coach does every week.
+2. **Someone to read them honestly** and turn them into a plan. That's what Under Par Full Access coaches do.
 3. **A course management system** you trust: see [how to manage your game like a tour player](/blogs/playing-strategies-for-golfers/how-to-manage-your-game-like-a-pga-player).

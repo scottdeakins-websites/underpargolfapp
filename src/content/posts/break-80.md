@@ -51,4 +51,4 @@ Three sessions and one round. About 3½ hours of practice.
 
 ## Measure progress every two weeks
 
-Track **up-and-down rate, putts per round and wedge shots inside 20 feet** in practice. When those move, the scores follow. Want someone else to read the numbers and adjust the plan for you? That's what an Under Par coach does every week.
+Track **up-and-down rate, putts per round and wedge shots inside 20 feet** in practice. When those move, the scores follow. Want a coach to read the numbers and adjust the plan for you? That's Under Par [Full Access](/pages/wait-list) (currently full, waitlist open).

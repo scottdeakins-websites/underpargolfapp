@@ -8,7 +8,7 @@ raw: true
 <section class="wrap page">
 <p class="kicker">Players</p>
 <h1>Results from Under Par players</h1>
-<p class="lede">In their own words, from golfers between a +1 and a 21 handicap.</p>
+<p class="lede">Results from Under Par coaching players, between a +1 and a 21 handicap. Personal coaching is now our Full Access plan (${{FULL_PRICE}}/month, <a href="{{WAITLIST}}">waitlist</a>).</p>
 <div class="quotes">
 <figure class="quote"><div class="result">20 → 13</div><p>Dropped seven strokes off his handicap in three months.</p><footer>Ian N. · 13 handicap</footer></figure>
 <figure class="quote"><div class="result">Broke 80</div><p>Shot 77 about six weeks in, his first time ever under 80.</p><footer>John M. · 9 handicap</footer></figure>
