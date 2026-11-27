@@ -10,7 +10,7 @@ related: [full-swing-guide-from-scratch-golf, fitness-for-golfers]
 faq:
   "Can you get better at golf in the winter?": "Yes. Winter is the best time for swing changes, fitness and building yardages on a simulator, because you're not worried about scores."
   "How should I practice on a golf simulator?": "Treat it like a launch monitor, not a video game. Measure carries for every club, play scored target games, and simulate rounds on courses you'll play."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golfer_Practicing_During_Offseason_in_a_Golf_Simulator.png?width=1200"
+image: "/assets/img/Golfer_Practicing_During_Offseason_in_a_Golf_Simulator.webp"
 ---
 The off-season is when good golfers get better. There's no score to protect, so you can make the [swing change](/blogs/full-swing-guide-from-scratch-golf/the-art-of-making-swing-changes) you've been putting off, get stronger and build exact yardages. Here's a weekly plan for winter, whether you have a simulator, a garage net or just a hallway.
 

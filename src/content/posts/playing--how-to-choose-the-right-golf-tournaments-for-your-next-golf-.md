@@ -8,7 +8,7 @@ date: '2023-03-21'
 updated: '2026-11-27'
 related:
 - mindset
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golfers_Sharing_a_Personal_Best_Tournament_Score.png?width=1200"
+image: "/assets/img/Golfers_Sharing_a_Personal_Best_Tournament_Score.webp"
 ---
 *By Michael Leonard*
 

@@ -10,7 +10,7 @@ related: [the-blog]
 faq:
   "What is a flighted wedge?": "A wedge hit with less than a full swing and more club, so it flies lower, spins less and is easier to control, especially in the wind."
   "How far back should the ball be for a knockdown wedge?": "About one to two inches back from your normal wedge position. Any further and you'll get steep, chunked or pushed shots."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/5_Steps_to_Hitting_Flighted_Wedges-2.png?width=1200"
+image: "/assets/img/5_Steps_to_Hitting_Flighted_Wedges-2.webp"
 ---
 A full wedge feels like the right shot from 110 yards. It usually isn't. Full swings make more spin and more height, and they make your distance harder to repeat. A **flighted wedge** (also called a knockdown) uses more club and less swing. It flies lower, holds its line in the wind and stops close to where it lands.
 

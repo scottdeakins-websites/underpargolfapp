@@ -8,7 +8,7 @@ date: '2022-06-17'
 updated: '2026-11-27'
 related:
 - the-blog
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Shooter_vs._Happy_Post_Shot_Routine.png?width=1200"
+image: "/assets/img/Shooter_vs._Happy_Post_Shot_Routine.webp"
 ---
 Not throwing your club isn't the same as having a post-shot routine. Most top players have a short, consistent way of processing every shot, good or bad, before they walk to the next one.
 

@@ -9,7 +9,7 @@ updated: '2026-11-27'
 related:
 - scratch-golfs-guide-to-putting
 - short-game-improvement-guide
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golfer_Playing_at_Dusk.png?width=1200"
+image: "/assets/img/Golfer_Playing_at_Dusk.webp"
 ---
 You don't have a tour player's coaches, facilities or free time. But you can copy *how* they practice. Here are six habits worth stealing.
 

@@ -18,10 +18,10 @@ This is the same structure as our app practice plans, built for any skill level.
 | 4 | [Save-Par Short Game](/blogs/short-game-improvement-guide/short-game-practice-session-to-help-you-save-par) | Up-and-downs and bunker play | 84 min |
 
 <div class="grid-3" markdown="0">
-<img src="{{CDN}}Under_Par_Screenshots_of_Practice_Sessions_-_Target_Challenge.png?width=600" alt="Target Challenge practice session" loading="lazy" style="border-radius:16px">
-<img src="{{CDN}}Under_Par_Screenshots_of_Practice_Sessions_-_Landing_Zone.png?width=600" alt="Landing Zone chipping and pitching session" loading="lazy" style="border-radius:16px">
-<img src="{{CDN}}Under_Par_Screenshots_of_Practice_Sessions_-_Putting_Speed_Control.png?width=600" alt="Putting Speed Control session" loading="lazy" style="border-radius:16px">
-<img src="{{CDN}}Under_Par_Screenshots_of_Practice_Sessions_-_Saucy_Wedges.png?width=600" alt="Saucy Wedges session" loading="lazy" style="border-radius:16px">
+<img src="/assets/img/Under_Par_Screenshots_of_Practice_Sessions_-_Target_Challenge.webp" alt="Target Challenge practice session" loading="lazy" style="border-radius:16px">
+<img src="/assets/img/Under_Par_Screenshots_of_Practice_Sessions_-_Landing_Zone.webp" alt="Landing Zone chipping and pitching session" loading="lazy" style="border-radius:16px">
+<img src="/assets/img/Under_Par_Screenshots_of_Practice_Sessions_-_Putting_Speed_Control.webp" alt="Putting Speed Control session" loading="lazy" style="border-radius:16px">
+<img src="/assets/img/Under_Par_Screenshots_of_Practice_Sessions_-_Saucy_Wedges.webp" alt="Saucy Wedges session" loading="lazy" style="border-radius:16px">
 </div>
 
 ## More sample sessions

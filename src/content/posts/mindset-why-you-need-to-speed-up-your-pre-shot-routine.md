@@ -8,7 +8,7 @@ date: '2022-10-31'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Speeding_Up_Your_Golf_Pre-Shot_Routine_will_Result_in_Lower_Scores.png?width=1200"
+image: "/assets/img/Speeding_Up_Your_Golf_Pre-Shot_Routine_will_Result_in_Lower_Scores.webp"
 ---
 The conventional wisdom says slow down and take your time. The evidence points the other way: **a quicker, consistent routine tends to produce better golf**, and it helps with slow play, which nobody enjoys.
 

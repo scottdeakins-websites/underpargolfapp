@@ -8,7 +8,7 @@ date: '2023-03-08'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Learning_from_Tiger_Wood_s_Pre-Shot_Routine.png?width=1200"
+image: "/assets/img/Learning_from_Tiger_Wood_s_Pre-Shot_Routine.webp"
 ---
 *By Michael Leonard*
 

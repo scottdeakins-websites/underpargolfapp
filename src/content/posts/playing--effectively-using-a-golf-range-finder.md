@@ -8,7 +8,7 @@ date: '2022-03-31'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Range_Finder_Usage_Tips.png?width=1200"
+image: "/assets/img/Golf_Range_Finder_Usage_Tips.webp"
 ---
 Most golfers zap the flag, pick a club and swing. The flag number matters, but it's only part of the picture. Build these three numbers into your [pre-shot routine](/blogs/mindset/a-simple-blueprint-for-your-pre-shot-routine).
 
@@ -36,7 +36,7 @@ Greg Norman once said he hit maybe one perfect shot a round. Golf is a game of m
 
 ## For big events: a yardage book
 
-<div class="grid-3" style="margin-top:16px"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Yardage_Book_From_PuttView_Picture.jpg?width=800" alt="Player holding a yardage book" loading="lazy"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Green_Book_from_PuttView_Picture.jpg?width=800" alt="Course yardage map" loading="lazy"></div>
+<div class="grid-3" style="margin-top:16px"><img src="/assets/img/Yardage_Book_From_PuttView_Picture.webp" alt="Player holding a yardage book" loading="lazy"><img src="/assets/img/Green_Book_from_PuttView_Picture.webp" alt="Course yardage map" loading="lazy"></div>
 
 
 For your home course or a big tournament, a yardage and green-reading book is the ultimate cheat sheet. Rules on detailed green-reading books have tightened at the top level, so check your event's local rules first. Need your own club distances? Build a [yardage guide](/blogs/full-swing-guide-from-scratch-golf/building-a-yardage-guide).

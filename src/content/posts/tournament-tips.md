@@ -10,7 +10,7 @@ related: [mindset]
 faq:
   "How early should I get to the course before a golf tournament?": "About 75 minutes before your tee time gives you time to register and go through your full warm-up without rushing."
   "Should I practice my swing the week of a tournament?": "Avoid big swing changes. Spend the week on putting, wedges, driver accuracy and your pre-shot routine, with one swing thought at most."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/AdobeStock_64829844.jpg?width=1200"
+image: "/assets/img/AdobeStock_64829844.webp"
 ---
 Tournament golf is a different game. Same swing, same clubs, but adrenaline, unfamiliar courses and a scorecard someone else is checking. These ten tips cover the week before, the day of and what to do after.
 

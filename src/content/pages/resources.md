@@ -6,7 +6,7 @@ description: "Under Par training: structured golf practice plans and golf workou
 raw: true
 ---
 <section class="photo-band" style="min-height:560px">
-<video autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="{{CDN}}Scratch_Golfer_Alternative_Video.mp4" type="video/mp4"></video>
+<video autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="/assets/video/Scratch_Golfer_Alternative_Video.mp4" type="video/mp4"></video>
 <div class="wrap">
 <span class="pill-tag">Training</span>
 <h1>Every part of your <em>game</em></h1>
@@ -30,7 +30,7 @@ raw: true
 </ul>
 <a class="btn" href="/pages/practice-plan">Practice Plan Details</a>
 </div>
-<div class="img-card"><img src="{{CDN}}Practice_Mock_Up.png?width=900" alt="Practice plan in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Practice_Mock_Up.webp" alt="Practice plan in the Under Par app" loading="lazy"></div>
 </div>
 
 <div class="media-split flip">
@@ -40,7 +40,7 @@ raw: true
 <p class="lede">A golf-specific workout plan, 4–6 days a week and 30–75 minutes a session, with demo videos for every exercise and personal bests you can track.</p>
 <a class="btn" href="/pages/workout">Golf Workout Details</a>
 </div>
-<img src="{{CDN}}Golfer_Working_Out_to_Unlock_Power_and_Consistency.png?width=1000" alt="Golfer training with a cable machine for rotational power" loading="lazy">
+<img src="/assets/img/Golfer_Working_Out_to_Unlock_Power_and_Consistency.webp" alt="Golfer training with a cable machine for rotational power" loading="lazy">
 </div>
 
 <div class="media-split">
@@ -50,7 +50,7 @@ raw: true
 <p class="lede">On the range or stuck in a greenside bunker: upload video and get feedback from your coach without waiting days for a lesson.</p>
 <a class="btn btn-ghost" href="/pages/swing-coaching">Swing Coaching Details</a>
 </div>
-<div class="img-card"><img src="{{CDN}}Coaching_Mock_Up-3.png?width=900" alt="Coach feedback on a swing video in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Coaching_Mock_Up-3.webp" alt="Coach feedback on a swing video in the Under Par app" loading="lazy"></div>
 </div>
 
 <div class="media-split flip">
@@ -60,7 +60,7 @@ raw: true
 <p class="lede">Course management strategies the pros use, and round reviews with your coach to find where to shave strokes. You'll wish you'd done some of these sooner.</p>
 <a class="btn btn-ghost" href="/pages/playing-strategies">Playing Strategy Details</a>
 </div>
-<div class="img-card"><img src="{{CDN}}Strategy_Mock_Up-2.png?width=900" alt="Strategy tools in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Strategy_Mock_Up-2.webp" alt="Strategy tools in the Under Par app" loading="lazy"></div>
 </div>
 
 <div class="media-split">
@@ -70,7 +70,7 @@ raw: true
 <p class="lede">Missing putts you know you should make? Nightmares about the hazard down the left? Build pre- and post-shot routines and a confident mindset for the first tee and the last putt.</p>
 <a class="btn btn-ghost" href="/pages/mindset-coaching">Mindset Coaching Details</a>
 </div>
-<div class="img-card"><img src="{{CDN}}Mindset_Mock_Up.png?width=900" alt="Mindset coaching in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Mindset_Mock_Up.webp" alt="Mindset coaching in the Under Par app" loading="lazy"></div>
 </div>
 
 </div>

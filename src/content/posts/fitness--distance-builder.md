@@ -8,7 +8,7 @@ date: '2023-03-01'
 updated: '2026-11-27'
 related:
 - the-blog
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Distance_Builder_Fitness_Workout.png?width=1200"
+image: "/assets/img/Distance_Builder_Fitness_Workout.webp"
 ---
 This is a sample from the Under Par golf workout plan: a shoulder strength and power day. Expect about an hour. *Check with a doctor or physical therapist before starting a new program, and scale weights to your level.*
 

@@ -8,7 +8,7 @@ date: '2022-04-19'
 updated: '2026-11-27'
 related:
 - the-blog
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/5_Things_I_Learned_Working_with_a_Sports_Psychologist.png?width=1200"
+image: "/assets/img/5_Things_I_Learned_Working_with_a_Sports_Psychologist.webp"
 ---
 *By Michael Leonard, Under Par mental coach and author of Wicked Smart Golf*
 

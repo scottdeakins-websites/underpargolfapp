@@ -10,7 +10,7 @@ related: [the-blog]
 faq:
   "What muscles are most important for golf?": "The core, glutes, back, shoulders and forearms. The glutes and core drive power and stability; the back and shoulders support posture and control; the forearms hold the club."
   "How often should golfers strength train?": "Two to three sessions a week is a good starting point, plus a few minutes of mobility work most days."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2023-02-07_at_4.25.08_PM.png?width=1200"
+image: "/assets/img/Screen_Shot_2023-02-07_at_4.25.08_PM.webp"
 ---
 You don't need to be a bodybuilder to hit it further. But a stronger, more mobile body makes a better swing easier to repeat, adds speed, and keeps you playing without your back complaining. These are the five muscle groups that matter most for golf.
 

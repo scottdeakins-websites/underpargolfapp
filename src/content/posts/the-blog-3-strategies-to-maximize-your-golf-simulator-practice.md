@@ -8,7 +8,7 @@ date: '2022-12-19'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golfer_Practicing_During_Offseason_in_a_Golf_Simulator.png?width=1200"
+image: "/assets/img/Golfer_Practicing_During_Offseason_in_a_Golf_Simulator.webp"
 ---
 A simulator isn't the same as hitting off real grass. But it's much better than not practicing, and a lot cheaper than a tee time at Pebble Beach. The key is to use it like a launch monitor and a golf course, not a video game. Three strategies:
 

@@ -10,7 +10,7 @@ related: [short-game-improvement-guide, scratch-golfs-guide-to-putting]
 faq:
   "How should I split one hour of golf practice?": "Spend most of it where scores are made: about 20 minutes putting, 30 minutes on wedges, chipping and pitching, and 10 minutes on full swings."
   "How many balls do I need for a 1-hour practice session?": "About 80 shots plus 48 putts. A medium bucket covers the range portion."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Girl_Putting.jpg?width=1200"
+image: "/assets/img/Girl_Putting.webp"
 ---
 You have an hour. Most golfers spend it hitting a large bucket of drivers. This plan spends it the way your scores are actually made: most of the time inside 110 yards.
 

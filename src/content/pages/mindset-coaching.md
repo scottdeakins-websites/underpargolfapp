@@ -6,7 +6,7 @@ description: "Mindset coaching with Under Par Full Access: confidence, pre-shot 
 raw: true
 ---
 <section class="photo-band" style="min-height:560px">
-<img src="{{CDN}}Under_Par_-_Mindset_Hero.png?width=2200" alt="Golfer holding his finish">
+<img src="/assets/img/Under_Par_-_Mindset_Hero.webp" alt="Golfer holding his finish">
 <div class="wrap">
 <span class="pill-tag">Mindset Coaching · Full Access</span>
 <h1>Confidence + practice <em>= results</em></h1>
@@ -18,9 +18,9 @@ raw: true
 <p class="kicker">Work With a Coach to Put Swagger in Your Game</p>
 <h2>What you'll work on</h2>
 <div class="icon-steps">
-<div><img src="{{CDN}}hat-1.png?width=240" alt="Mindset developed through practice" loading="lazy"><h3>Confidence</h3><p>Spot the negative thoughts that need to go and replace them with strategies the pros use.</p></div>
-<div><img src="{{CDN}}field.png?width=240" alt="Training plan written by your coach" loading="lazy"><h3>Routines</h3><p>A pre-shot and post-shot routine for every part of your game, reviewed after each round.</p></div>
-<div><img src="{{CDN}}trophy-1.png?width=240" alt="Winning under pressure" loading="lazy"><h3>Pressure</h3><p>A mindset you can count on when the round, or the tournament, matters.</p></div>
+<div><img src="/assets/img/hat-1.webp" alt="Mindset developed through practice" loading="lazy"><h3>Confidence</h3><p>Spot the negative thoughts that need to go and replace them with strategies the pros use.</p></div>
+<div><img src="/assets/img/field.webp" alt="Training plan written by your coach" loading="lazy"><h3>Routines</h3><p>A pre-shot and post-shot routine for every part of your game, reviewed after each round.</p></div>
+<div><img src="/assets/img/trophy-1.webp" alt="Winning under pressure" loading="lazy"><h3>Pressure</h3><p>A mindset you can count on when the round, or the tournament, matters.</p></div>
 </div>
 </div>
 </section>

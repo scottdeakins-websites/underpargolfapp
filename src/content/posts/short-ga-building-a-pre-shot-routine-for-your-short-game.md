@@ -8,7 +8,7 @@ date: '2022-11-21'
 updated: '2026-11-27'
 related:
 - mindset
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Short_Game_Pre_Shot_Routine_to_Build_Confidence_and_Lower_Golf_Scores.png?width=1200"
+image: "/assets/img/Short_Game_Pre_Shot_Routine_to_Build_Confidence_and_Lower_Golf_Scores.webp"
 ---
 Most golfers have a pre-shot routine for full swings and nothing for the short game. That's where strokes leak. You need three routines: **full swing, short game and putting.** Each one helps you focus, calms nerves and keeps you in the moment.
 

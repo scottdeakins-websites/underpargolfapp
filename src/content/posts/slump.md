@@ -9,7 +9,7 @@ updated: 2026-11-27
 related: [short-game-improvement-guide]
 faq:
   "How long does a golf slump last?": "It depends on the cause. If it's one area of your game, targeted practice can turn it around in a few weeks. If it's confidence, a few relaxed rounds and less swing tinkering usually help fastest."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/ak5fequfnwzfr4rnxpj0.gif"
+image: "/assets/img/ak5fequfnwzfr4rnxpj0.gif"
 ---
 Every golfer goes through it: three bad rounds in a row and suddenly every part of your game feels broken. It usually isn't. A slump is often one or two problems plus a lot of lost confidence. Here's how to get out.
 

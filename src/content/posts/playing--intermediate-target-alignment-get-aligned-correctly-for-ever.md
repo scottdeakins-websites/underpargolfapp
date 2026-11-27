@@ -8,7 +8,7 @@ date: '2022-10-10'
 updated: '2026-11-27'
 related:
 - mindset
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Swing_Coaching_650_x_650_px.png?width=1200"
+image: "/assets/img/Swing_Coaching_650_x_650_px.webp"
 ---
 Alignment is the most overlooked fundamental in golf, and it's often where Under Par coaches start. When you're aimed wrong, your body makes compensations to get the ball to the target, and those compensations cause poor strikes and inconsistent shots. Fix the aim, and a lot of "swing problems" disappear.
 

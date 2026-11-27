@@ -8,7 +8,7 @@ date: '2023-05-02'
 updated: '2026-11-27'
 related:
 - full-swing-guide-from-scratch-golf
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Horschel_Shot_Tracer.png?width=1200"
+image: "/assets/img/Horschel_Shot_Tracer.webp"
 ---
 Tour players curve the ball to get around obstacles, use the wind and position it on the green. How much you should practice shaping shots depends on your level. For most golfers, it's more important to [own one shape](/blogs/playing-strategies-for-golfers/how-to-manage-your-game-like-a-pga-player) than to hit both. But knowing how to curve it either way gets you out of trouble.
 

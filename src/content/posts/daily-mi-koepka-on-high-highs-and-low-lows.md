@@ -6,7 +6,7 @@ description: 'Brooks Koepka on golf''s highs and lows: when it''s good you think
 category: daily-mindset-2
 date: '2023-03-08'
 updated: '2026-11-27'
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Koepka_on_Golf_Highs_and_Lows.png?width=1200"
+image: "/assets/img/Koepka_on_Golf_Highs_and_Lows.webp"
 ---
 Brooks Koepka has described golf this way: when you're playing well, you feel like you'll never lose it, and when you're playing badly, you feel like you'll never find it again.
 

@@ -8,7 +8,7 @@ date: '2023-01-25'
 updated: '2026-11-27'
 related:
 - short-game-improvement-guide
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Practice_Tip-3.png?width=1200"
+image: "/assets/img/Practice_Tip-3.webp"
 ---
 Most practice happens from perfect lies: a pristine range mat, a freshly raked bunker, a fluffy lie by the chipping green. The course isn't so kind. Matted rough, footprints in bunkers and hardpan around the green are where scores get away from you, and almost nobody practices them.
 

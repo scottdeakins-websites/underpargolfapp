@@ -6,7 +6,7 @@ description: 'Pick one mental focus for your next round. Three to choose from: o
 category: mindset
 date: '2022-03-30'
 updated: '2026-11-27'
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Tiger_Woods_Getting_into_his_Mindset.png?width=1200"
+image: "/assets/img/Tiger_Woods_Getting_into_his_Mindset.webp"
 ---
 What's your mental focus for your next round? Most golfers don't have one. Pick **one** of these three and hold onto it for all 18 holes.
 

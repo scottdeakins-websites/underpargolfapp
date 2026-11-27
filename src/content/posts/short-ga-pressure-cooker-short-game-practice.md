@@ -8,7 +8,7 @@ date: '2024-09-10'
 updated: '2026-11-27'
 related:
 - scratch-golfs-guide-to-putting
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/LPGA_Star_Practicing_Chipping.png?width=1200"
+image: "/assets/img/LPGA_Star_Practicing_Chipping.webp"
 ---
 Practice is easy when nothing's on the line. This session puts something on the line, so your short game holds up when it matters.
 

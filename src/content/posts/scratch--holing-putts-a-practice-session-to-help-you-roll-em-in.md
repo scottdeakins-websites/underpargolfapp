@@ -8,7 +8,7 @@ date: '2022-04-01'
 updated: '2026-11-27'
 related:
 - short-game-improvement-guide
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Spieth_Making_a_Putt.png?width=1200"
+image: "/assets/img/Spieth_Making_a_Putt.webp"
 ---
 This session is about making putts, plus a short block of bump-and-runs to set them up.
 

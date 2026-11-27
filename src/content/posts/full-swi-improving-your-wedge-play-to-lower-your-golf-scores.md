@@ -8,7 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - the-blog
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Cam_Smith_with_Wedge_in_Golf.png?width=1200"
+image: "/assets/img/Cam_Smith_with_Wedge_in_Golf.webp"
 ---
 Good wedge play gives you the confidence to attack pins, more birdie chances and more par saves when you miss a green. This session is a big one: 100 wedge shots.
 

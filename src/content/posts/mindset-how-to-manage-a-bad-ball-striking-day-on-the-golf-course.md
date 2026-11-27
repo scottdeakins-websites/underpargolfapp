@@ -8,7 +8,7 @@ date: '2022-11-21'
 updated: '2026-11-27'
 related:
 - playing-strategies-for-golfers
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Bad_Day_on_the_Golf_Course_-_Guide_to_Posting_a_Reasonable_Golf_Score.png?width=1200"
+image: "/assets/img/Bad_Day_on_the_Golf_Course_-_Guide_to_Posting_a_Reasonable_Golf_Score.webp"
 ---
 Everyone has rounds where the ball won't go where they're looking. What separates good players from average ones is what they shoot on those days. Five ways to keep the score respectable:
 

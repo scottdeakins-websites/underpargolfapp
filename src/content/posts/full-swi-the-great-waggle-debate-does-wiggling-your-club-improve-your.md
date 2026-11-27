@@ -8,7 +8,7 @@ date: '2022-12-21'
 updated: '2026-11-27'
 related:
 - mindset
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/The_Golf_Waggle_Debate.png?width=1200"
+image: "/assets/img/The_Golf_Waggle_Debate.webp"
 ---
 Watch any tour event and you'll see it: a little back-and-forth of the club before the swing. Sergio Garcia was famous for over-waggling, sometimes as many as 25 times. Tony Finau uses a waggle to get his short, powerful swing started. So does it actually help?
 

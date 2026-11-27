@@ -6,7 +6,7 @@ description: Excellence is never an accident. What high intention, sincere effor
 category: daily-mindset-2
 date: '2023-02-27'
 updated: '2026-11-27'
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Aristotle_on_Excellence.png?width=1200"
+image: "/assets/img/Aristotle_on_Excellence.webp"
 ---
 > "Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution."
 > — often attributed to Aristotle

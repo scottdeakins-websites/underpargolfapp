@@ -8,7 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - short-game-improvement-guide
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golfer_Hitting_Bunker_Shot_out_of_Sand.png?width=1200"
+image: "/assets/img/Golfer_Hitting_Bunker_Shot_out_of_Sand.webp"
 ---
 Watch golf on TV and it looks like the pros get up and down from every bunker. They don't. TV shows the spectacular saves and skips most of the ones that end with a 12-footer missed.
 

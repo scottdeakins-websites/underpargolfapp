@@ -9,9 +9,9 @@ description: "How the Under Par golf coaching app works. Today tab, practice and
 # How the Under Par app works
 
 <div class="grid-3" markdown="0">
-<div class="img-card"><img src="{{CDN}}Under_Par_Coaching_with_Daily_Practice_Sessions_and_Workouts_for_Golfers-2_ddfbb4c9-4ef0-4b93-8918-7f2b26c18a60.png?width=700" alt="Daily training in the Under Par app" loading="lazy"></div>
-<div class="img-card"><img src="{{CDN}}Under_Par_Golf_Performance_Training_App_for_Workouts_and_Fitness_Gains_for_Golfers.png?width=700" alt="Workouts in the Under Par app" loading="lazy"></div>
-<div class="img-card"><img src="{{CDN}}Course_Stats_Mock_Up.png?width=700" alt="Round stats in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Under_Par_Coaching_with_Daily_Practice_Sessions_and_Workouts_for_Golfers-2_ddfbb4c9-4ef0-4b93-8918-7f2b26c18a60.webp" alt="Daily training in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Under_Par_Golf_Performance_Training_App_for_Workouts_and_Fitness_Gains_for_Golfers.webp" alt="Workouts in the Under Par app" loading="lazy"></div>
+<div class="img-card"><img src="/assets/img/Course_Stats_Mock_Up.webp" alt="Round stats in the Under Par app" loading="lazy"></div>
 </div>
 
 Your practice plan, workouts, drills and results all live in one place. Coach features (inbox and feedback) are part of [Full Access](/pages/wait-list).

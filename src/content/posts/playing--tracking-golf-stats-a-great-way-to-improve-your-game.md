@@ -11,7 +11,7 @@ related:
 faq:
   What golf stats should beginners track?: Fairways hit, greens in regulation, scrambling, sand saves and total putts. Track 5–10 rounds to get a baseline before changing your practice.
   What is strokes gained?: A measure that compares each shot to a benchmark from the same distance and situation, so you can see exactly which parts of your game gain or lose strokes.
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-05-06_at_10.39.08_AM.png?width=1200"
+image: "/assets/img/Screen_Shot_2022-05-06_at_10.39.08_AM.webp"
 ---
 You can't improve what you don't measure. Tracking stats gives you a baseline, tells you exactly where you're losing strokes and makes every practice session more efficient.
 

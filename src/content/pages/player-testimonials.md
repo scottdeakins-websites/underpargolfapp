@@ -6,7 +6,7 @@ description: "Under Par player results in their own words: Ian dropped from a 20
 raw: true
 ---
 <section class="photo-band" style="min-height:560px">
-<video autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="{{CDN}}Scratch_Golf_Putting_Hero.mp4" type="video/mp4"></video>
+<video autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="/assets/video/Scratch_Golf_Putting_Hero.mp4" type="video/mp4"></video>
 <div class="wrap">
 <span class="pill-tag">Players</span>
 <h1>Our players are <em>tenacious dreamers</em></h1>
@@ -17,7 +17,7 @@ raw: true
 <section class="band">
 <div class="wrap">
 <div class="video-quote">
-<video controls playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/38ab466d3e7a4dc097248aae99f077e5.mp4" type="video/mp4"></video>
+<video controls playsinline preload="metadata"><source src="/assets/video/38ab466d3e7a4dc097248aae99f077e5.mp4" type="video/mp4"></video>
 <div>
 <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
 <p class="kicker">Video: New Career Low in Just 6 Weeks</p>
@@ -38,7 +38,7 @@ raw: true
 <blockquote class="big-quote" style="margin-left:0">“The practice is fun, it changes every few weeks and I am seeing the results on the course.”</blockquote>
 <p style="font-weight:600">Ian N. <span style="color:var(--muted);font-weight:400">· 13 handicap</span></p>
 </div>
-<video controls playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/3fb8cb20645041549e69de722020d8f2.mp4" type="video/mp4"></video>
+<video controls playsinline preload="metadata"><source src="/assets/video/3fb8cb20645041549e69de722020d8f2.mp4" type="video/mp4"></video>
 </div>
 </div>
 </section>
@@ -57,7 +57,7 @@ raw: true
 </section>
 
 <section class="photo-band">
-<img src="{{CDN}}Golfers_Playing_at_Dusk.png?width=2000" alt="Golfers walking a course at dusk" loading="lazy">
+<img src="/assets/img/Golfers_Playing_at_Dusk.webp" alt="Golfers walking a course at dusk" loading="lazy">
 <div class="wrap">
 <h2>All skill levels. <em>All golfer types.</em></h2>
 <p class="lede">From pros to junior golfers, players from all over the world. If you have a work ethic and big golf goals, you'll fit right in.</p>

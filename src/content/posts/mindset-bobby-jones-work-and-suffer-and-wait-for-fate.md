@@ -8,7 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - playing-strategies-for-golfers
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Bobby_Jones_and_his_trophies.png?width=1200"
+image: "/assets/img/Bobby_Jones_and_his_trophies.webp"
 ---
 Bobby Jones said nobody knows what will happen in golf until it happens. His answer to that uncertainty was simple: work hard, put up with the hard parts, and let fate do the rest.
 

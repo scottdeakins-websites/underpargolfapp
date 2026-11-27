@@ -11,7 +11,7 @@ faq:
   "How often should I practice golf?": "Two focused sessions a week plus one round will move most golfers forward. Consistency matters more than volume: two scored sessions beat five buckets of drivers."
   "How should I split my practice time?": "Start with about half on short game and putting, a third on wedges and approach shots, and the rest on driver and long irons. Then shift time toward whatever your stats say is costing you the most."
   "Is there a golf practice plan PDF?": "Yes. Our free printable practice plan has four scored sessions covering full swing, wedges, short game and putting."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Practice_Plan_Mock_Up.png?width=1200"
+image: "/assets/img/Practice_Plan_Mock_Up.webp"
 ---
 Most golfers practice the same way every time: grab a bucket, hit drivers until it feels good, maybe a few chips. That's not practice, it's a warm-up with no round attached. A **golf practice plan** answers three questions before you leave the house: *what am I working on, how much, and how will I know if it worked?*
 

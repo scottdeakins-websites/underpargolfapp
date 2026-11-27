@@ -7,7 +7,7 @@ category: the-blog
 date: 2026-11-27
 updated: 2026-11-27
 related: [short-game-improvement-guide]
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Practice_Basket_with_a_Few_Balls.png?width=1200"
+image: "/assets/img/Golf_Practice_Basket_with_a_Few_Balls.webp"
 ---
 You don't need two hours to get better. Thirty minutes with a target, a rep count and a score beats an afternoon of hitting balls without one. Here are three 30-minute sessions. Rotate them through the week.
 

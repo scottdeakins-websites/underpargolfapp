@@ -8,7 +8,7 @@ date: '2023-01-02'
 updated: '2026-11-27'
 related:
 - the-blog
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Golf_Goal_Setting_Guide_from_Under_Par.png?width=1200"
+image: "/assets/img/Golf_Goal_Setting_Guide_from_Under_Par.webp"
 ---
 Setting goals is the easy part. Reaching them takes a system. Whether you're new to the game or chasing scratch, these four keys turn a list of goals into real progress. (Haven't set them yet? Start with [the do's and don'ts of golf goals](/blogs/mindset/setting-your-annual-golf-goals-the-do-s-and-don-ts).)
 
@@ -30,7 +30,7 @@ Big goals take sustained effort. Find ways to enjoy it: games, challenges, compe
 
 ## Learn from the tour
 
-<div class="grid-3" style="margin-top:16px"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Justin_Thomas_PGA_Tour_Goals.png?width=800" alt="Justin Thomas season goals" loading="lazy"><img src="https://cdn.shopify.com/s/files/1/0611/8208/3286/files/Justin_Thomas_PGA_Tour_Goals_-_2.png?width=800" alt="Justin Thomas 2021 PGA Tour goals" loading="lazy"></div>
+<div class="grid-3" style="margin-top:16px"><img src="/assets/img/Justin_Thomas_PGA_Tour_Goals.webp" alt="Justin Thomas season goals" loading="lazy"><img src="/assets/img/Justin_Thomas_PGA_Tour_Goals_-_2.webp" alt="Justin Thomas 2021 PGA Tour goals" loading="lazy"></div>
 
 
 Tour players' goals are heavily statistical, because a single stroke per round is worth a fortune at that level. Justin Thomas has shared his season goals publicly, and they read like a stats sheet. Your strokes may not be worth that much, but stat goals work the same way for you. And like tour players, it helps to have someone checking in on your progress. That's what an Under Par Full Access coach does.

@@ -38,10 +38,14 @@ NAV = [("Training", "/pages/resources"), ("Practice Plans", "/pages/sample-pract
        ("Players", "/pages/player-testimonials"), ("Coaches", "/pages/coaches"), ("Blog", "/pages/blog")]
 
 # Media still hosted on the Shopify store's CDN (move into the repo before closing Shopify)
-SHOP = "https://cdn.shopify.com/s/files/1/0611/8208/3286/files/"
-ART = "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/"
-LOGO_IMG = (f'<img class="logo" src="{SHOP}Under_Par_Golf_-_Full_Logo.png?width=200" '
-            f'srcset="{SHOP}Under_Par_Golf_-_Full_Logo.png?width=200 1x, {SHOP}Under_Par_Golf_-_Full_Logo.png?width=400 2x" '
+SHOP = "/assets/img/"
+ART = "/assets/img/"
+
+def og_url(img):
+    """Absolute JPG share-image URL (social sites handle JPG best)."""
+    stem = img.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+    return f"{SITE}/assets/og/{stem}.jpg"
+LOGO_IMG = (f'<img class="logo" src="{SHOP}Under_Par_Golf_-_Full_Logo.webp" '
             'alt="Under Par Performance Golf" width="180" height="46">')
 
 # Every old Shopify blog URL (68). Ones not migrated yet redirect to their category hub.
@@ -150,7 +154,7 @@ def head(title, desc, path, schema, og_type="website", image=None):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{esc(image or SHOP + 'Under_Par_Screen_Shot.webp?width=1200')}">
+<meta property="og:image" content="{og_url(image or 'Under_Par_Screen_Shot')}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@UnderParCoach">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -322,7 +326,7 @@ def build():
     for p in posts:
         name = CATEGORIES[p["category"]][0]
         trail = [("Home", "/"), ("Blog", "/pages/blog"), (name, f"/blogs/{p['category']}"), (p["title"], p["path"])]
-        art = {"@type": "BlogPosting", "headline": p["title"], **({"image": p["image"]} if p.get("image") else {}), "description": p["description"],
+        art = {"@type": "BlogPosting", "headline": p["title"], **({"image": SITE + p["image"]} if p.get("image") else {}), "description": p["description"],
                "datePublished": str(p["date"]), "dateModified": str(p["updated"]),
                "author": {"@type": "Organization", "name": "Under Par Coaching Team", "url": SITE + "/pages/coaches"},
                "publisher": {"@id": SITE + "/#org"}, "mainEntityOfPage": SITE + p["path"]}

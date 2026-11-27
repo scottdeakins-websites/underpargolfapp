@@ -10,7 +10,7 @@ related: [the-blog]
 faq:
   "How long should I practice putting?": "Thirty to forty minutes, two or three times a week, is plenty if every putt has a purpose and a score."
   "What should I practice first, short putts or long putts?": "Start with start line and contact on short putts, then speed on long putts, then finish with a pressure game so the session ends with putts that matter."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Im_Practices_Putting.png?width=1200"
+image: "/assets/img/Im_Practices_Putting.webp"
 ---
 Most golfers practice putting by dropping three balls and stroking them at a hole. It feels productive, but it doesn't train anything. A good putting routine works on the **three skills that make putts**, in order:
 

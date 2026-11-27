@@ -9,7 +9,7 @@ updated: 2026-11-27
 related: [scratch-golfs-guide-to-putting]
 faq:
   "What is the best drill for putting speed control?": "Rolling putts over a coin or marker placed about two feet in front of the ball. It makes you focus on start line and solid contact, which is what controls speed on long putts."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Putting_Speed_Control_-_Sample_Golf_Practice_Session_-_Lag_Putting.png?width=1200"
+image: "/assets/img/Putting_Speed_Control_-_Sample_Golf_Practice_Session_-_Lag_Putting.webp"
 ---
 Most three-putts aren't caused by a bad read. They're caused by a bad first putt: off the sweet spot, too firm or way short. This session works on the two things behind good speed, **centered contact** and **a consistent stroke length**.
 

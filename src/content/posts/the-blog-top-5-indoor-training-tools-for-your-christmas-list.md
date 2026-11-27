@@ -8,7 +8,7 @@ date: '2022-03-23'
 updated: '2026-11-27'
 related:
 - fitness-for-golfers
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/AdobeStock_280058526.jpg?width=1200"
+image: "/assets/img/AdobeStock_280058526.webp"
 ---
 Bad weather doesn't have to mean no golf. These five tools let you keep training at home through the winter, and they make good gifts for the golfer in your life. *Prices were checked when this was first written and may have changed.*
 

@@ -8,7 +8,7 @@ date: '2022-03-30'
 updated: '2026-11-27'
 related:
 - playing-strategies-for-golfers
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Tiger_Woods_Famous_Golf_Stinger.png?width=1200"
+image: "/assets/img/Tiger_Woods_Famous_Golf_Stinger.webp"
 ---
 This is a ball-striking session built around controlling the club head: hitting down through the ball, flighting it low, and curving it both ways. It's also one of the most fun sessions we have.
 

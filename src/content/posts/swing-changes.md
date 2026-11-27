@@ -10,7 +10,7 @@ related: [mindset, the-blog]
 faq:
   "When is the best time to make a golf swing change?": "The off-season. You can focus on technique without worrying about scores. Keep testing it in casual rounds so it carries to the course."
   "Should I change my swing before a tournament?": "No. In tournament week, stick to fundamentals like grip, tempo, alignment and ball position, and spend your time on short game, putting and routine."
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Untitled_design-5.png?width=1200"
+image: "/assets/img/Untitled_design-5.webp"
 ---
 Every swing change is a bet. It might get worse before it gets better, and sometimes it just gets worse. But your swing is always changing anyway, so the real skill is knowing **when** to change it and **how** to do it without losing the season.
 

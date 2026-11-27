@@ -8,7 +8,7 @@ date: '2022-04-18'
 updated: '2026-11-27'
 related:
 - mindset
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/Screen_Shot_2022-04-14_at_2.26.42_PM.png?width=1200"
+image: "/assets/img/Screen_Shot_2022-04-14_at_2.26.42_PM.webp"
 ---
 Here's what most golfers' practice looks like: a few wedges to warm up, then up through the bag with no real purpose. Irons at the same flag, then drivers, then a few more random clubs. The chipping green gets skipped because there were emails to answer. If that sounds familiar, here are the signs it's time for a plan.
 

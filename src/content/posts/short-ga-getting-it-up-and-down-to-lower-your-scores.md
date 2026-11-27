@@ -8,7 +8,7 @@ date: '2022-04-19'
 updated: '2026-11-27'
 related:
 - scratch-golfs-guide-to-putting
-image: "https://cdn.shopify.com/s/files/1/0611/8208/3286/articles/LPGA_Star_Practicing_Chipping.png?width=1200"
+image: "/assets/img/LPGA_Star_Practicing_Chipping.webp"
 ---
 Progress comes from small daily choices: the extra five putts, the practice session on a windy day, staying focused on the course. This session is one of those choices. It's long, and it covers everything you need to get up and down.
 
