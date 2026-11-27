@@ -1,8 +1,8 @@
 ---
 path: /blogs/mindset/a-simple-blueprint-for-your-pre-shot-routine
-title: "A Simple Pre-Shot Routine for Golf (4 Steps)"
-seo_title: "Golf Pre-Shot Routine: A Simple 4-Step Blueprint | Under Par Golf"
-description: "A simple 4-step golf pre-shot routine you can use on every shot. Practice swing, target, visualize and commit, plus how to make it automatic."
+title: "A Simple Pre-Shot Routine for Golf (4 Steps + Checklist)"
+seo_title: "Golf Pre-Shot Routine Checklist: A Simple 4-Step Blueprint | Under Par Golf"
+description: "A simple 4-step golf pre-shot routine with a printable checklist. Practice swing, target, visualize and commit, plus how to make it automatic."
 category: mindset
 date: 2023-02-07
 updated: 2026-11-27
@@ -30,6 +30,27 @@ Use the four steps as your starting point and adjust them on the course. A few t
 - **Use an intermediate target.** Pick a mark a few feet in front of the ball on your target line and align to that. It's far easier than aiming at a flag 150 yards away. More on this in [intermediate target alignment](/blogs/playing-strategies-for-golfers).
 - **Add a trigger.** A deep breath, a waggle or a re-grip that tells you "now." It should be the same every time.
 - **Practice it on the range.** Do your full routine on at least the last 10 balls of every session.
+
+## Pre-shot routine checklist
+
+Print this (your browser's Print → Save as PDF) and keep it in your bag until the routine is automatic.
+
+| ✓ | Behind the ball |
+|---|---|
+| ☐ | Yardage: front, pin, back |
+| ☐ | Wind and lie checked |
+| ☐ | Club chosen. No second-guessing after this. |
+| ☐ | Specific target picked (not "the fairway") |
+| ☐ | One practice swing with one feel |
+| ☐ | Shot visualized: start line, shape, landing spot |
+
+| ✓ | Over the ball |
+|---|---|
+| ☐ | Clubface aimed at the intermediate target |
+| ☐ | Feet, hips and shoulders set to the clubface |
+| ☐ | Ball position checked for the club |
+| ☐ | Trigger: breath, waggle or re-grip |
+| ☐ | Commit and swing |
 
 ## Check it after every round
 

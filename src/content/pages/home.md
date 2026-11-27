@@ -6,7 +6,7 @@ description: "A real golf coach, a practice plan built around your schedule, and
 raw: true
 featured:
   - /blogs/the-blog/best-1-hour-golf-practice-session
-  - /blogs/short-game-improvement-guide/short-game-practice-session-to-help-you-save-par
+  - /blogs/the-blog/golf-practice-plan
   - /blogs/full-swing-guide-from-scratch-golf/the-fundamentals-of-ball-position
 ---
 <section class="hero">

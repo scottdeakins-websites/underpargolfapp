@@ -1,14 +1,20 @@
 ---
 path: /pages/download
 crumb: "Free practice sessions"
-title: "Free Golf Practice Sessions (Printable Practice Plan) | Under Par"
-description: "Four free golf practice sessions you can print. A full-swing accuracy challenge, wedge distance ladder, short game challenge and putting games."
+title: "Free Golf Practice Plan PDF: 4 Printable Sessions | Under Par"
+description: "Download a free golf practice plan PDF. Four scored sessions covering full swing, wedges, short game and putting, ready to print and take to the range."
 ---
+<div class="print-only" markdown="1">**UNDER PAR PERFORMANCE GOLF** · underpargolfapp.com</div>
+
 <p class="kicker">Free practice sessions</p>
 
-# 4 free practice sessions you can print
+# Free golf practice plan (PDF)
 
-Real results come from real training. These are four sessions from the Under Par coaching team, one for each part of the game. To keep a copy, use your browser's **Print → Save as PDF**.
+Real results come from real training. These are four sessions from the Under Par coaching team, one for each part of the game, with reps and a score for every drill.
+
+<p><a class="btn" href="/assets/downloads/under-par-golf-practice-plan.pdf" download>Download the PDF</a></p>
+
+Or use the sessions right here. Want help choosing what to practice? Read [how to build a golf practice plan](/blogs/the-blog/golf-practice-plan).
 
 ## 1. Full-swing accuracy challenge (20 min)
 
@@ -44,3 +50,5 @@ Your carry numbers become your [wedge distance chart](/blogs/full-swing-guide-fr
 | Coin drill: roll over a marker 2 ft ahead from 25 ft | 18 | Hits out of 18 |
 
 Want the full versions? Start with the [4-day sample practice plan](/pages/sample-practice-plan).
+
+<div class="print-only callout" markdown="1">**Want a plan built for your game?** An Under Par coach builds your weekly practice and fitness plan, reviews every session and adjusts it as your scores change. $39/month at **underpargolfapp.com**.</div>

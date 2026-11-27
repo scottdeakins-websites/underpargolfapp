@@ -24,6 +24,7 @@ CATEGORIES = {
     "scratch-golfs-guide-to-putting": ("Putting", "Speed control, start line and putting games."),
     "playing-strategies-for-golfers": ("Strategy", "Course management: smarter targets, fewer big numbers."),
     "mindset": ("Mental Game", "Routines and habits that hold up under pressure."),
+    "fitness-for-golfers": ("Fitness", "Strength and mobility for a faster, healthier swing."),
 }
 
 NAV = [("Training", "/pages/resources"), ("Free practice plans", "/pages/sample-practice-plan"),
@@ -325,7 +326,7 @@ def build():
         cat = old.split("/")[0]
         if path not in migrated:
             lines.append(f"{path}  {'/blogs/' + cat if cat in CATEGORIES else '/pages/blog'}  302")
-    for cat in ["fitness-for-golfers", "daily-mindset-2", "golf-content", "scratch-golfs-guide-to-putting", "short-game-improvement-guide", "mindset", "the-blog", "full-swing-guide-from-scratch-golf", "playing-strategies-for-golfers"]:
+    for cat in ["daily-mindset-2", "golf-content", "scratch-golfs-guide-to-putting", "short-game-improvement-guide", "mindset", "the-blog", "full-swing-guide-from-scratch-golf", "playing-strategies-for-golfers"]:
         if cat in CATEGORIES:
             continue
         lines.append(f"/blogs/{cat}  /pages/blog  302")
