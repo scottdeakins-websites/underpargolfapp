@@ -25,6 +25,8 @@ CATEGORIES = {
     "playing-strategies-for-golfers": ("Strategy", "Course management: smarter targets, fewer big numbers."),
     "mindset": ("Mental Game", "Routines and habits that hold up under pressure."),
     "fitness-for-golfers": ("Fitness", "Strength and mobility for a faster, healthier swing."),
+    "daily-mindset-2": ("Daily Mindset", "Short daily thoughts to keep your head in the game."),
+    "golf-content": ("Features", "Podcasts, books and features from the Under Par team."),
 }
 
 NAV = [("Training", "/pages/resources"), ("Free practice plans", "/pages/sample-practice-plan"),
@@ -188,7 +190,7 @@ def footer():
 <div><h3>Learn</h3>{cats}<a href="/pages/download">Free practice sessions</a></div>
 <div><h3>Company</h3><a href="/pages/our-mission">Our mission</a><a href="/pages/coaches">Coaches</a><a href="/pages/player-testimonials">Players</a><a href="/pages/contact-us">Contact</a><a href="https://twitter.com/UnderParCoach">X / Twitter</a><a href="https://www.facebook.com/Under-Par-Performance-Golf-102095152341941">Facebook</a></div>
 </div>
-<div class="wrap foot-legal"><span>© {datetime.date.today().year} Under Par Performance Golf</span><a href="https://underpargolfapp.com/policies/privacy-policy">Privacy</a><a href="https://underpargolfapp.com/policies/terms-of-service">Terms</a></div>
+<div class="wrap foot-legal"><span>© {datetime.date.today().year} Scratch Golf, Inc. d/b/a Under Par</span><a href="https://underpargolfapp.com/policies/privacy-policy">Privacy</a><a href="https://underpargolfapp.com/policies/terms-of-service">Terms</a></div>
 </footer>
 </body>
 </html>
