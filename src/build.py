@@ -14,6 +14,10 @@ SITE = "https://underpargolfapp.com"
 
 # ---- Sign-up link (placeholder until the Mighty Forms sign-up page URL is ready) ----
 SIGNUP_URL = "/pages/join-the-under-par-team-standard-monthly"
+SIGNUP_HOOK = "https://hooks.zapier.com/hooks/catch/14135922/GR2gIjxFGDGVsGBn/"
+WAITLIST_HOOK = "https://hooks.zapier.com/hooks/catch/14135922/kTnxdywUZHkrCRNx/"
+STRIPE_MONTHLY = "https://buy.stripe.com/eVq6oG0GweQg1N10sr6Na1h"
+STRIPE_ANNUAL = "https://buy.stripe.com/6oUfZggFucI8ezNa316Na1i"
 MONTHLY_URL = "/pages/join-the-under-par-team-standard-monthly"
 ANNUAL_URL = "/pages/join-the-under-par-team-standard-annually"
 PRICE = 39
@@ -262,12 +266,73 @@ FULL_NOTE = (f'<div class="callout full-note"><p><strong>Personal coaching is pa
              f'not access to a coach. <a href="{WAITLIST}">Join the Full Access waitlist</a>.</p></div>')
 
 
+SKILLS = [("driver", "Driver"), ("fairway_woods_hybrids", "Fairway Woods / Hybrids"), ("irons", "Irons"), ("wedges", "Wedges"),
+          ("chipping", "Chipping"), ("bunker_game", "Bunker Game"), ("short_putting", "Short Putting"), ("lag_putting", "Lag Putting")]
+
+
+def opts(values, placeholder="Choose…"):
+    return f'<option value="" disabled selected>{placeholder}</option>' + "".join(f'<option>{v}</option>' for v in values)
+
+
+def signup_form(plan):
+    checkout = STRIPE_ANNUAL if plan == "annual" else STRIPE_MONTHLY
+    price = f"${ANNUAL_PRICE} a year" if plan == "annual" else f"${PRICE} a month"
+    ratings = "".join(
+        f'<div class="rate"><span class="rate-label">{label}</span><div class="rate-opts" role="radiogroup" aria-label="{label}">'
+        + "".join(f'<label><input type="radio" name="{key}" value="{n}"{" required" if n == 1 else ""} data-msg="Rate your {label.lower()} from 1 to 5."><span>{n}</span></label>' for n in range(1, 6))
+        + "</div></div>" for key, label in SKILLS)
+    return f"""<form class="up-form up-signup" data-plan="{plan}" data-hook="{SIGNUP_HOOK}" data-checkout="{checkout}" novalidate>
+<ol class="progress"><li class="on">Your Game</li><li>Your Goals</li><li>About You</li></ol>
+<fieldset class="step"><legend>Rate each part of your game</legend><p class="hint">1 = needs a lot of work · 5 = a real strength</p>
+<div class="rate-grid">{ratings}</div></fieldset>
+<fieldset class="step" hidden><legend>Your goals and schedule</legend>
+<div class="row2"><label>Typical golf score<input type="number" name="typical_score" min="50" max="160" inputmode="numeric" required data-msg="Enter your typical 18-hole score." placeholder="e.g. 92"></label>
+<label>Scoring goal<select name="scoring_goal" required data-msg="Pick a scoring goal.">{opts(["Break 100", "Break 90", "Break 80", "Break Par", "Lower my handicap"])}</select></label></div>
+<div class="row3"><label>Practice days per week<select name="practice_days" required data-msg="How many days a week can you practice?">{opts([str(n) for n in range(1, 8)])}</select></label>
+<label>Fitness days per week<select name="fitness_days" required data-msg="How many days a week can you train?">{opts([str(n) for n in range(0, 7)])}</select></label>
+<label>Playing days per week<select name="playing_days" required data-msg="How often do you play?">{opts([str(n) for n in range(0, 8)])}</select></label></div>
+<label>What parts of your game do you most want to improve?<textarea name="coaching_needs" rows="3" placeholder="e.g. driver accuracy, lag putting, course management"></textarea></label>
+<label>Other goals <span class="opt">(optional)</span><textarea name="other_goals" rows="3" placeholder="Tournaments, club championship, playing with your kids…"></textarea></label>
+</fieldset>
+<fieldset class="step" hidden><legend>About you</legend>
+<div class="row2"><label>First name<input name="first_name" autocomplete="given-name" required data-msg="Enter your first name."></label>
+<label>Last name<input name="last_name" autocomplete="family-name" required data-msg="Enter your last name."></label></div>
+<div class="row2"><label>Email<input type="email" name="email" autocomplete="email" required data-msg="Enter a valid email address."></label>
+<label>Phone <span class="opt">(optional)</span><input type="tel" name="phone" autocomplete="tel"></label></div>
+<label class="trap" aria-hidden="true">Company<input name="company" tabindex="-1" autocomplete="off"></label>
+<p class="hint">Next you'll pay {price} on Stripe's secure checkout. Your answers set up your practice and fitness plans in the app. This plan doesn't include a personal coach.</p>
+</fieldset>
+<p class="form-error" role="alert" hidden></p>
+<div class="form-nav"><button type="button" class="btn btn-ghost back" hidden>Back</button><button type="button" class="btn next">Next</button><button type="submit" class="btn submit" hidden>Continue to Secure Payment</button></div>
+</form>
+<script src="/assets/forms.js" defer></script>"""
+
+
+def waitlist_form():
+    return f"""<form class="up-form up-waitlist" data-hook="{WAITLIST_HOOK}" data-done="waitlist-done" novalidate>
+<div class="row2"><label>First name<input name="first_name" autocomplete="given-name" required data-msg="Enter your first name."></label>
+<label>Last name<input name="last_name" autocomplete="family-name" required data-msg="Enter your last name."></label></div>
+<div class="row2"><label>Email<input type="email" name="email" autocomplete="email" required data-msg="Enter a valid email address."></label>
+<label>Phone <span class="opt">(optional)</span><input type="tel" name="phone" autocomplete="tel"></label></div>
+<label>Typical golf score <span class="opt">(optional)</span><input type="number" name="typical_score" min="50" max="160" inputmode="numeric" placeholder="e.g. 85"></label>
+<label>What do you want to work on with a coach? <span class="opt">(optional)</span><textarea name="goals" rows="3"></textarea></label>
+<label class="trap" aria-hidden="true">Company<input name="company" tabindex="-1" autocomplete="off"></label>
+<p class="form-error" role="alert" hidden></p>
+<div class="form-nav"><button type="submit" class="btn submit">Join the Full Access Waitlist</button></div>
+</form>
+<div id="waitlist-done" class="form-done" hidden><p class="kicker">You're on the list</p><h2>Thanks, <span class="who"></span>.</h2>
+<p>We'll email you as soon as a Full Access spot opens. In the meantime, the <a href="/pages/join-today">App Plan</a> gets you practice and fitness plans today from ${PRICE}/month.</p></div>
+<script src="/assets/forms.js" defer></script>"""
+
+
 def render(text):
     return (text.replace("{{JOIN}}", JOIN).replace("{{PRICE}}", str(PRICE))
             .replace("{{SIGNUP_URL}}", SIGNUP_URL).replace("{{MONTHLY_URL}}", MONTHLY_URL)
             .replace("{{ANNUAL_URL}}", ANNUAL_URL).replace("{{ANNUAL_PRICE}}", str(ANNUAL_PRICE))
             .replace("{{FULL_PRICE}}", str(FULL_PRICE)).replace("{{WAITLIST}}", WAITLIST)
-            .replace("{{FULL_ACCESS}}", FULL_NOTE).replace("{{CDN}}", SHOP).replace("{{ART}}", ART))
+            .replace("{{FULL_ACCESS}}", FULL_NOTE).replace("{{CDN}}", SHOP).replace("{{ART}}", ART).replace("{{SIGNUP_HOOK}}", SIGNUP_HOOK).replace("{{WAITLIST_HOOK}}", WAITLIST_HOOK).replace("{{STRIPE_MONTHLY}}", STRIPE_MONTHLY).replace("{{STRIPE_ANNUAL}}", STRIPE_ANNUAL)
+            .replace("{{SIGNUP_FORM_MONTHLY}}", signup_form("monthly")).replace("{{SIGNUP_FORM_ANNUAL}}", signup_form("annual"))
+            .replace("{{WAITLIST_FORM}}", waitlist_form()))
 
 
 def build():
@@ -305,11 +370,14 @@ def build():
                                   f'<p>{blurb}</p></div><div class="post-grid">{"".join(card(x) for x in items)}</div></section>')
             body = body.replace("<!--BLOG-->", "".join(groups))
         doc = head(p["title"], p["description"], p["path"], schema) + header(p["path"])
+        if p.get("noindex"):
+            doc = doc.replace("<meta charset=\"utf-8\">", "<meta charset=\"utf-8\">\n<meta name=\"robots\" content=\"noindex\">", 1)
         doc += body if p.get("raw") else f'<article class="wrap page prose">{body}</article>'
         if not p.get("no_cta"):
             doc += cta_band()
         write(p["path"], doc + footer())
-        sitemap.append(p["path"])
+        if not p.get("noindex"):
+            sitemap.append(p["path"])
 
     # Category hubs
     for key, (name, blurb) in CATEGORIES.items():
@@ -356,7 +424,8 @@ def build():
 <section class="wrap related"><h2>Keep reading</h2><div class="post-grid">{"".join(card(x) for x in related)}</div></section>
 """
         write(p["path"], doc + footer())
-        sitemap.append(p["path"])
+        if not p.get("noindex"):
+            sitemap.append(p["path"])
 
     # 404
     (OUT / "404.html").write_text(head("Page not found | Under Par Performance Golf", "Page not found.", "/404", {"@context": "https://schema.org", "@graph": [ORG]})

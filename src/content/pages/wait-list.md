@@ -16,10 +16,7 @@ no_cta: true
 <section style="padding-bottom:72px">
 <div class="wrap" style="max-width:820px">
 <div class="form-wrap">
-<!-- MightyForms Section -->
-<div class="mighty-form" id="mf-68cae542-424c-4cb7-a75f-4828e685e26c"></div>
-<script async src="https://form.mightyforms.com/loader/v1/mightyforms.min.js"></script>
-<!-- End MightyForms Section -->
+{{WAITLIST_FORM}}
 </div>
 <p class="fine" style="text-align:center">Don't want to wait? The <a href="/pages/join-today">App Plan</a> gives you practice and fitness plans today from ${{PRICE}}/month (no personal coach).</p>
 </div>

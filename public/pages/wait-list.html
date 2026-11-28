@@ -46,10 +46,20 @@ b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')==='t
 <section style="padding-bottom:72px">
 <div class="wrap" style="max-width:820px">
 <div class="form-wrap">
-<!-- MightyForms Section -->
-<div class="mighty-form" id="mf-68cae542-424c-4cb7-a75f-4828e685e26c"></div>
-<script async src="https://form.mightyforms.com/loader/v1/mightyforms.min.js"></script>
-<!-- End MightyForms Section -->
+<form class="up-form up-waitlist" data-hook="https://hooks.zapier.com/hooks/catch/14135922/kTnxdywUZHkrCRNx/" data-done="waitlist-done" novalidate>
+<div class="row2"><label>First name<input name="first_name" autocomplete="given-name" required data-msg="Enter your first name."></label>
+<label>Last name<input name="last_name" autocomplete="family-name" required data-msg="Enter your last name."></label></div>
+<div class="row2"><label>Email<input type="email" name="email" autocomplete="email" required data-msg="Enter a valid email address."></label>
+<label>Phone <span class="opt">(optional)</span><input type="tel" name="phone" autocomplete="tel"></label></div>
+<label>Typical golf score <span class="opt">(optional)</span><input type="number" name="typical_score" min="50" max="160" inputmode="numeric" placeholder="e.g. 85"></label>
+<label>What do you want to work on with a coach? <span class="opt">(optional)</span><textarea name="goals" rows="3"></textarea></label>
+<label class="trap" aria-hidden="true">Company<input name="company" tabindex="-1" autocomplete="off"></label>
+<p class="form-error" role="alert" hidden></p>
+<div class="form-nav"><button type="submit" class="btn submit">Join the Full Access Waitlist</button></div>
+</form>
+<div id="waitlist-done" class="form-done" hidden><p class="kicker">You're on the list</p><h2>Thanks, <span class="who"></span>.</h2>
+<p>We'll email you as soon as a Full Access spot opens. In the meantime, the <a href="/pages/join-today">App Plan</a> gets you practice and fitness plans today from $39/month.</p></div>
+<script src="/assets/forms.js" defer></script>
 </div>
 <p class="fine" style="text-align:center">Don't want to wait? The <a href="/pages/join-today">App Plan</a> gives you practice and fitness plans today from $39/month (no personal coach).</p>
 </div>
